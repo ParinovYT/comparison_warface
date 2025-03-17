@@ -1,1 +1,1376 @@
-hello world
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Сравнение торрент-файлов</title>
+<style>
+footer { text-align: center; margin-top: 20px; font-size: 14px;   }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid black; padding: 8px; text-align: left; }
+.added { background-color: #90EE90; }
+.removed { background-color: #FFCCCB; }
+</style>
+</head>
+<body>
+
+  <footer>
+        <p>Датамайнинг - Kid</p>
+        <p>Разработка скрипта - ParinovYT</p>
+		<h1>Результаты сравнения торрент-файлов</h1>
+    </footer>
+
+
+<input type="text" id="filterInput" placeholder="Фильтр (например, _fs)" oninput="filterTable()">
+<table id="comparisonTable">
+<tr><th>Торрент файл</th><th>Добавленные файлы</th><th>Удаленные файлы</th></tr>
+<tr>
+<td>warfacedistrib164.torrent</td>
+<td class="added">manifest.xml.gz<br>app.7z.001<br>GameIcon.ico<br>Game\Textures_Textures.pak<br>Game\Textures_Other.pak<br>Game\Textures_Levels_Test_Levels.pak<br>Game\Textures_Levels_PVP.pak<br>Game\Textures_Levels_Kosovo.pak<br>Game\Textures_Levels_Favela.pak<br>Game\Textures_Levels_Afghan.pak<br>Game\Sounds_Vo.pak<br>Game\Sounds_Sr.pak<br>Game\Sounds_Smg.pak<br>Game\Sounds_Shg.pak<br>Game\Sounds_Physics.pak<br>Game\Sounds_Other.pak<br>Game\Sounds_Environment_str.pak<br>Game\Sounds_Environment.pak<br>Game\Sounds_Characters.pak<br>Game\Sounds_Ar.pak<br>Game\Objects_Weapons_xmas.pak<br>Game\Objects_Weapons_sr.pak<br>Game\Objects_Weapons_smg.pak<br>Game\Objects_Weapons_shg.pak<br>Game\Objects_Weapons_ar.pak<br>Game\Objects_Weapons.pak<br>Game\Objects_Vehicles.pak<br>Game\Objects_Props.pak<br>Game\Objects_Other.pak<br>Game\Objects_Natural.pak<br>Game\Objects_Kosovo_City.pak<br>Game\Objects_Kosovo.pak<br>Game\Objects_Generic_Hideout.pak<br>Game\Objects_Favela.pak<br>Game\Objects_Effects.pak<br>Game\Objects_Characters_shared.pak<br>Game\Objects_Characters_ai.pak<br>Game\Objects_Attachments.pak<br>Game\Objects_Afghan.pak<br>Game\Music.pak<br>Game\Localized\Video\RandomBox_Shaker5.usm<br>Game\Localized\Video\RandomBox_Shaker4.usm<br>Game\Localized\Video\RandomBox_Shaker3.usm<br>Game\Localized\Video\RandomBox_Shaker2.usm<br>Game\Localized\Video\RandomBox_Shaker1.usm<br>Game\Localized\Video\Logo_MailRU.usm<br>Game\Localized\Video\Logo_Crytek.usm<br>Game\Localized\Video\Logo_CryEngine3.usm<br>Game\Localized\Video\F1_blue.usm<br>Game\Localized\Russian.pak<br>Game\Localized\CrashRpt\crashrpt_lang_VN.ini<br>Game\Localized\CrashRpt\crashrpt_lang_TR.ini<br>Game\Localized\CrashRpt\crashrpt_lang_RU.ini<br>Game\Localized\CrashRpt\crashrpt_lang_PL.ini<br>Game\Localized\CrashRpt\crashrpt_lang_FR.ini<br>Game\Localized\CrashRpt\crashrpt_lang_EN.ini<br>Game\Localized\CrashRpt\crashrpt_lang_DE.ini<br>Game\Localized\CrashRpt\crashrpt_lang_BR.ini<br>Game\Levels\zombie\zombie_convoy\terraintexture.pak<br>Game\Levels\zombie\zombie_convoy\tags.txt<br>Game\Levels\zombie\zombie_convoy\level.pak<br>Game\Levels\zombie\zombie_base\terraintexture.pak<br>Game\Levels\zombie\zombie_base\level.pak<br>Game\Levels\survival\survival_base\terraintexture.pak<br>Game\Levels\survival\survival_base\level.pak<br>Game\Levels\survival\snow_fortress_base\terraintexture.pak<br>Game\Levels\survival\snow_fortress_base\tags.txt<br>Game\Levels\survival\snow_fortress_base\rw_ToD_Master.tod<br>Game\Levels\survival\snow_fortress_base\level.pak<br>Game\Levels\survival\snow_fortress_act3_boss\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act3_boss\tags.txt<br>Game\Levels\survival\snow_fortress_act3_boss\level.pak<br>Game\Levels\survival\snow_fortress_act3\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act3\tags.txt<br>Game\Levels\survival\snow_fortress_act3\level.pak<br>Game\Levels\survival\snow_fortress_act2\tod.tod<br>Game\Levels\survival\snow_fortress_act2\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act2\tags.txt<br>Game\Levels\survival\snow_fortress_act2\level.pak<br>Game\Levels\survival\snow_fortress_act2\ScreenshotMap.Settings<br>Game\Levels\survival\snow_fortress_act1\tod.tod<br>Game\Levels\survival\snow_fortress_act1\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act1\tags.txt<br>Game\Levels\survival\snow_fortress_act1\level.pak<br>Game\Levels\survival\china_survival\terraintexture.pak<br>Game\Levels\survival\china_survival\level.pak<br>Game\Levels\survival\anubis_base\terraintexture.pak<br>Game\Levels\survival\anubis_base\tags.txt<br>Game\Levels\survival\anubis_base\level.pak<br>Game\Levels\survival\anubis_act3\terraintexture.pak<br>Game\Levels\survival\anubis_act3\tags.txt<br>Game\Levels\survival\anubis_act3\preloadlibs.txt<br>Game\Levels\survival\anubis_act3\level.pak<br>Game\Levels\survival\anubis_act2\terraintexture.pak<br>Game\Levels\survival\anubis_act2\tags.txt<br>Game\Levels\survival\anubis_act2\preloadlibs.txt<br>Game\Levels\survival\anubis_act2\level.pak<br>Game\Levels\survival\anubis_act1\tod\last_tod_base.tod<br>Game\Levels\survival\anubis_act1\tod\20.10.2015.tod<br>Game\Levels\survival\anubis_act1\terraintexture.pak<br>Game\Levels\survival\anubis_act1\tags.txt<br>Game\Levels\survival\anubis_act1\preloadlibs.txt<br>Game\Levels\survival\anubis_act1\level.pak<br>Game\Levels\survival\africa_survival_base\terraintexture.pak<br>Game\Levels\survival\africa_survival_base\level.pak<br>Game\Levels\survival\africa_survival\terraintexture.pak<br>Game\Levels\survival\africa_survival\tags.txt<br>Game\Levels\survival\africa_survival\level.pak<br>Game\Levels\pvp\tdm_streetwars\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars\level.pak<br>Game\Levels\pvp\tdm_sirius\terraintexture.pak<br>Game\Levels\pvp\tdm_sirius\level.pak<br>Game\Levels\pvp\tdm_shuttle\terraintexture.pak<br>Game\Levels\pvp\tdm_shuttle\level.pak<br>Game\Levels\pvp\tdm_residential\terraintexture.pak<br>Game\Levels\pvp\tdm_residential\tags.txt<br>Game\Levels\pvp\tdm_residential\level.pak<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_OG16\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_OG16\level.pak<br>Game\Levels\pvp\tdm_grand_bazaar\terraintexture.pak<br>Game\Levels\pvp\tdm_grand_bazaar\tags.txt<br>Game\Levels\pvp\tdm_grand_bazaar\level.pak<br>Game\Levels\pvp\tdm_grand_bazaar\LevelDesign_Changelist.txt<br>Game\Levels\pvp\tdm_farm\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\tags.txt<br>Game\Levels\pvp\tdm_farm\level.pak<br>Game\Levels\pvp\tdm_farm\afghan.tod<br>Game\Levels\pvp\tdm_downtown\terraintexture.pak<br>Game\Levels\pvp\tdm_downtown\level.pak<br>Game\Levels\pvp\tdm_dock\terraintexture.pak<br>Game\Levels\pvp\tdm_dock\level.pak<br>Game\Levels\pvp\tdm_crossriver\terraintexture.pak<br>Game\Levels\pvp\tdm_crossriver\level.pak<br>Game\Levels\pvp\tdm_codenameD18\terraintexture.pak<br>Game\Levels\pvp\tdm_codenameD18\level.pak<br>Game\Levels\pvp\tdm_aul\terraintexture.pak<br>Game\Levels\pvp\tdm_aul\level.pak<br>Game\Levels\pvp\tdm_airbase\terraintexture.pak<br>Game\Levels\pvp\tdm_airbase\tags.txt<br>Game\Levels\pvp\tdm_airbase\level.pak<br>Game\Levels\pvp\stm_wharf\terraintexture.pak<br>Game\Levels\pvp\stm_wharf\level.pak<br>Game\Levels\pvp\stm_invasion\terraintexture.pak<br>Game\Levels\pvp\stm_invasion\level.pak<br>Game\Levels\pvp\stm_highhill\terraintexture.pak<br>Game\Levels\pvp\stm_highhill\level.pak<br>Game\Levels\pvp\stm_blackmamba\terraintexture.pak<br>Game\Levels\pvp\stm_blackmamba\level.pak<br>Game\Levels\pvp\stm_blackgold\terraintexture.pak<br>Game\Levels\pvp\stm_blackgold\level.pak<br>Game\Levels\pvp\ptb_trailerpark\terraintexture.pak<br>Game\Levels\pvp\ptb_trailerpark\level.pak<br>Game\Levels\pvp\ptb_palace\terraintexture.pak<br>Game\Levels\pvp\ptb_palace\level.pak<br>Game\Levels\pvp\ptb_overpass\terraintexture.pak<br>Game\Levels\pvp\ptb_overpass\level.pak<br>Game\Levels\pvp\ptb_factory\terraintexture.pak<br>Game\Levels\pvp\ptb_factory\level.pak<br>Game\Levels\pvp\ptb_district\terraintexture.pak<br>Game\Levels\pvp\ptb_district\level.pak<br>Game\Levels\pvp\ptb_destination\terraintexture.pak<br>Game\Levels\pvp\ptb_destination\level.pak<br>Game\Levels\pvp\ptb_bridges\terraintexture.pak<br>Game\Levels\pvp\ptb_bridges\level.pak<br>Game\Levels\pvp\ptb_afghan\terraintexture.pak<br>Game\Levels\pvp\ptb_afghan\level.pak<br>Game\Levels\pvp\ptb_D17\terraintexture.pak<br>Game\Levels\pvp\ptb_D17\level.pak<br>Game\Levels\pvp\hnt_night_motel\terraintexture.pak<br>Game\Levels\pvp\hnt_night_motel\preloadlibs.txt<br>Game\Levels\pvp\hnt_night_motel\night_tod.tod<br>Game\Levels\pvp\hnt_night_motel\level.pak<br>Game\Levels\pvp\hnt_africa\terraintexture.pak<br>Game\Levels\pvp\hnt_africa\preloadlibs.txt<br>Game\Levels\pvp\hnt_africa\level.pak<br>Game\Levels\pvp\hnt_africa\hnt_africa.tod<br>Game\Levels\pvp\ffa_widestreet\terraintexture.pak<br>Game\Levels\pvp\ffa_widestreet\level.pak<br>Game\Levels\pvp\ffa_train\terraintexture.pak<br>Game\Levels\pvp\ffa_train\level.pak<br>Game\Levels\pvp\ffa_train\kosovo_tod.tod<br>Game\Levels\pvp\ffa_overpass\terraintexture.pak<br>Game\Levels\pvp\ffa_overpass\level.pak<br>Game\Levels\pvp\ffa_motel\terraintexture.pak<br>Game\Levels\pvp\ffa_motel\level.pak<br>Game\Levels\pvp\ffa_forest\terraintexture.pak<br>Game\Levels\pvp\ffa_forest\level.pak<br>Game\Levels\pvp\ffa_downtown\terraintexture.pak<br>Game\Levels\pvp\ffa_downtown\level.pak<br>Game\Levels\pvp\ffa_bunker\terraintexture.pak<br>Game\Levels\pvp\ffa_bunker\level.pak<br>Game\Levels\pvp\dst_lighthouse\terraintexture.pak<br>Game\Levels\pvp\dst_lighthouse\level.pak<br>Game\Levels\pvp\dst_afghan\terraintexture.pak<br>Game\Levels\pvp\dst_afghan\level.pak<br>Game\Levels\pvp\dmn_subzero\terraintexture.pak<br>Game\Levels\pvp\dmn_subzero\level.pak<br>Game\Levels\pvp\dmn_sirius\terraintexture.pak<br>Game\Levels\pvp\dmn_sirius\level.pak<br>Game\Levels\pvp\dmn_armageddon\terraintexture.pak<br>Game\Levels\pvp\dmn_armageddon\level.pak<br>Game\Levels\pvp\ctf_vault\terraintexture.pak<br>Game\Levels\pvp\ctf_vault\level.pak<br>Game\Levels\pvp\ctf_quarry\terraintexture.pak<br>Game\Levels\pvp\ctf_quarry\tags.txt<br>Game\Levels\pvp\ctf_quarry\level.pak<br>Game\Levels\pvp\ctf_longway\terraintexture.pak<br>Game\Levels\pvp\ctf_longway\level.pak<br>Game\Levels\pvp\ctf_deposit\terraintexture.pak<br>Game\Levels\pvp\ctf_deposit\level.pak<br>Game\Levels\pvp\ctf_convoy\terraintexture.pak<br>Game\Levels\pvp\ctf_convoy\level.pak<br>Game\Levels\pvp\ctf_construction\terraintexture.pak<br>Game\Levels\pvp\ctf_construction\level.pak<br>Game\Levels\pvp\ctf_breach\terraintexture.pak<br>Game\Levels\pvp\ctf_breach\level.pak<br>Game\Levels\kosovo\kosovo_path08\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path08\level.pak<br>Game\Levels\kosovo\kosovo_path07\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path07\level.pak<br>Game\Levels\kosovo\kosovo_path06\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path06\level.pak<br>Game\Levels\kosovo\kosovo_path05\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path05\level.pak<br>Game\Levels\kosovo\kosovo_path04\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path04\level.pak<br>Game\Levels\kosovo\kosovo_path03\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path03\level.pak<br>Game\Levels\kosovo\kosovo_path02\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path02\level.pak<br>Game\Levels\kosovo\kosovo_path01\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path01\level.pak<br>Game\Levels\kosovo\kosovo_junction05\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction05\level.pak<br>Game\Levels\kosovo\kosovo_junction04\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction04\level.pak<br>Game\Levels\kosovo\kosovo_junction03\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction03\level.pak<br>Game\Levels\kosovo\kosovo_junction02\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction02\level.pak<br>Game\Levels\kosovo\kosovo_junction01\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction01\terrain\cover.ctc<br>Game\Levels\kosovo\kosovo_junction01\tags.txt<br>Game\Levels\kosovo\kosovo_junction01\level.pak<br>Game\Levels\kosovo\kosovo_base\terraintexture.pak<br>Game\Levels\kosovo\kosovo_base\level.pak<br>Game\Levels\hideout\terraintexture.pak<br>Game\Levels\hideout\level.pak<br>Game\Levels\hideout\level.cfg<br>Game\Levels\favela\favela_path08\terraintexture.pak<br>Game\Levels\favela\favela_path08\level.pak<br>Game\Levels\favela\favela_path07\terraintexture.pak<br>Game\Levels\favela\favela_path07\level.pak<br>Game\Levels\favela\favela_path06\terraintexture.pak<br>Game\Levels\favela\favela_path06\level.pak<br>Game\Levels\favela\favela_path05\terraintexture.pak<br>Game\Levels\favela\favela_path05\start.txt<br>Game\Levels\favela\favela_path05\level.pak<br>Game\Levels\favela\favela_path04\terraintexture.pak<br>Game\Levels\favela\favela_path04\start.txt<br>Game\Levels\favela\favela_path04\level.pak<br>Game\Levels\favela\favela_path03\terraintexture.pak<br>Game\Levels\favela\favela_path03\start.txt<br>Game\Levels\favela\favela_path03\level.pak<br>Game\Levels\favela\favela_path02\terraintexture.pak<br>Game\Levels\favela\favela_path02\tags.txt<br>Game\Levels\favela\favela_path02\start.txt<br>Game\Levels\favela\favela_path02\level.pak<br>Game\Levels\favela\favela_path01\terraintexture.pak<br>Game\Levels\favela\favela_path01\level.pak<br>Game\Levels\favela\favela_junction05\terraintexture.pak<br>Game\Levels\favela\favela_junction05\level.pak<br>Game\Levels\favela\favela_junction04\terraintexture.pak<br>Game\Levels\favela\favela_junction04\level.pak<br>Game\Levels\favela\favela_junction03\terraintexture.pak<br>Game\Levels\favela\favela_junction03\tags.txt<br>Game\Levels\favela\favela_junction03\level.pak<br>Game\Levels\favela\favela_junction02\terraintexture.pak<br>Game\Levels\favela\favela_junction02\level.pak<br>Game\Levels\favela\favela_junction01\terraintexture.pak<br>Game\Levels\favela\favela_junction01\start.txt<br>Game\Levels\favela\favela_junction01\level.pak<br>Game\Levels\favela\favela_base\terraintexture.pak<br>Game\Levels\favela\favela_base\level.pak<br>Game\Levels\china\china_path07\terraintexture.pak<br>Game\Levels\china\china_path07\level.pak<br>Game\Levels\china\china_path06\terraintexture.pak<br>Game\Levels\china\china_path06\level.pak<br>Game\Levels\china\china_path05\terraintexture.pak<br>Game\Levels\china\china_path05\level.pak<br>Game\Levels\china\china_path04\terraintexture.pak<br>Game\Levels\china\china_path04\level.pak<br>Game\Levels\china\china_path03\terraintexture.pak<br>Game\Levels\china\china_path03\level.pak<br>Game\Levels\china\china_path02\terraintexture.pak<br>Game\Levels\china\china_path02\level.pak<br>Game\Levels\china\china_path01\terraintexture.pak<br>Game\Levels\china\china_path01\level.pak<br>Game\Levels\china\china_junction05\terraintexture.pak<br>Game\Levels\china\china_junction05\tags.txt<br>Game\Levels\china\china_junction05\level.pak<br>Game\Levels\china\china_junction04\terraintexture.pak<br>Game\Levels\china\china_junction04\level.pak<br>Game\Levels\china\china_junction03\terraintexture.pak<br>Game\Levels\china\china_junction03\level.pak<br>Game\Levels\china\china_junction02\terraintexture.pak<br>Game\Levels\china\china_junction02\level.pak<br>Game\Levels\china\china_junction01\terraintexture.pak<br>Game\Levels\china\china_junction01\level.pak<br>Game\Levels\china\china_base\terraintexture.pak<br>Game\Levels\china\china_base\level.pak<br>Game\Levels\africa\africa_path06\terraintexture.pak<br>Game\Levels\africa\africa_path06\level.pak<br>Game\Levels\africa\africa_path03\terraintexture.pak<br>Game\Levels\africa\africa_path03\level.pak<br>Game\Levels\africa\africa_path01\terraintexture.pak<br>Game\Levels\africa\africa_path01\level.pak<br>Game\Levels\africa\africa_junction04\terraintexture.pak<br>Game\Levels\africa\africa_junction04\level.pak<br>Game\Levels\africa\africa_junction01\terraintexture.pak<br>Game\Levels\africa\africa_junction01\level.pak<br>Game\Levels\africa\africa_base\terraintexture.pak<br>Game\Levels\africa\africa_base\level.pak<br>Game\Levels\afghan\afghan_path12\terraintexture.pak<br>Game\Levels\afghan\afghan_path12\level.pak<br>Game\Levels\afghan\afghan_path11\terraintexture.pak<br>Game\Levels\afghan\afghan_path11\level.pak<br>Game\Levels\afghan\afghan_path10\terraintexture.pak<br>Game\Levels\afghan\afghan_path10\level.pak<br>Game\Levels\afghan\afghan_path09\terraintexture.pak<br>Game\Levels\afghan\afghan_path09\tags.txt<br>Game\Levels\afghan\afghan_path09\level.pak<br>Game\Levels\afghan\afghan_path08\terraintexture.pak<br>Game\Levels\afghan\afghan_path08\level.pak<br>Game\Levels\afghan\afghan_path07\terraintexture.pak<br>Game\Levels\afghan\afghan_path07\level.pak<br>Game\Levels\afghan\afghan_path06\terraintexture.pak<br>Game\Levels\afghan\afghan_path06\level.pak<br>Game\Levels\afghan\afghan_path05\terraintexture.pak<br>Game\Levels\afghan\afghan_path05\level.pak<br>Game\Levels\afghan\afghan_path04\terraintexture.pak<br>Game\Levels\afghan\afghan_path04\level.pak<br>Game\Levels\afghan\afghan_path03\terraintexture.pak<br>Game\Levels\afghan\afghan_path03\level.pak<br>Game\Levels\afghan\afghan_path02\terraintexture.pak<br>Game\Levels\afghan\afghan_path02\level.pak<br>Game\Levels\afghan\afghan_path01\terraintexture.pak<br>Game\Levels\afghan\afghan_path01\level.pak<br>Game\Levels\afghan\afghan_junction05\terraintexture.pak<br>Game\Levels\afghan\afghan_junction05\level.pak<br>Game\Levels\afghan\afghan_junction04\terraintexture.pak<br>Game\Levels\afghan\afghan_junction04\tags.txt<br>Game\Levels\afghan\afghan_junction04\level.pak<br>Game\Levels\afghan\afghan_junction03\terraintexture.pak<br>Game\Levels\afghan\afghan_junction03\level.pak<br>Game\Levels\afghan\afghan_junction02\terraintexture.pak<br>Game\Levels\afghan\afghan_junction02\level.pak<br>Game\Levels\afghan\afghan_junction01\terraintexture.pak<br>Game\Levels\afghan\afghan_junction01\level.pak<br>Game\Levels\afghan\afghan_base\terraintexture.pak<br>Game\Levels\afghan\afghan_base\level.pak<br>Game\Levels\Tutorial\soldier\tod.tod<br>Game\Levels\Tutorial\soldier\terraintexture.pak<br>Game\Levels\Tutorial\soldier\level.pak<br>Game\Levels\Tutorial\medic\terraintexture.pak<br>Game\Levels\Tutorial\medic\level.pak<br>Game\Levels\Tutorial\engineer\terraintexture.pak<br>Game\Levels\Tutorial\engineer\level.pak<br>Game\Levels\Tutorial\advanced\terraintexture.pak<br>Game\Levels\Tutorial\advanced\level.pak<br>Game\GameScriptsC.pak<br>Game\GameInfo.pak<br>Game\GameData.pak<br>Game\Animations.pak<br>Engine\ShaderCache.pak<br>Engine\Engine.pak<br>Bin32Release\ssleay32.dll<br>Bin32Release\pcnsl.exe<br>Bin32Release\ocevogyv.x86<br>Bin32Release\ocevogyv.dll<br>Bin32Release\nvToolsExt32_1.dll<br>Bin32Release\msvcr110.dll<br>Bin32Release\msvcp110.dll<br>Bin32Release\mrac.dll<br>Bin32Release\libeay32.dll<br>Bin32Release\libcurl.dll<br>Bin32Release\jansson.dll<br>Bin32Release\ijl15.dll<br>Bin32Release\fmodex.dll<br>Bin32Release\fmod_event_net.dll<br>Bin32Release\fmod_event.dll<br>Bin32Release\diag.xml<br>Bin32Release\d3dx10_42.dll<br>Bin32Release\cacert.pem<br>Bin32Release\PhysXDevice.dll<br>Bin32Release\PhysX3_x86.dll<br>Bin32Release\PhysX3Gpu_x86.dll<br>Bin32Release\PhysX3Cooking_x86.dll<br>Bin32Release\PhysX3Common_x86.dll<br>Bin32Release\Game.exe<br>Bin32Release\GFSDK_GSA.win32.dll<br>Bin32Release\D3DX9_42.dll<br>Bin32Release\D3DCompiler_42.dll<br>Bin32Release\CryOnline.dll<br>Bin32Release\CrashSender1402.exe<br>Bin32Release\CrashRpt1402.dll<br>Bin32Release\ApexFramework_x86.dll<br>Bin32Release\APEX_TurbulenceFS_x86.dll<br>Bin32Release\APEX_Particles_x86.dll<br>Bin32Release\APEX_Legacy_x86.dll</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib165.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib166.torrent</td>
+<td class="added">Game\Levels\africa\africa_path05\level.pak<br>Game\Levels\africa\africa_path05\tags.txt<br>Game\Levels\africa\africa_path08\terraintexture.pak<br>Game\Levels\africa\africa_path08\tags.txt<br>Game\Levels\africa\africa_path08\level.pak<br>Game\Levels\africa\africa_path05\terraintexture.pak<br>Engine\ShadersBin.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_hangar_OG16\level.pak<br>Game\Levels\pvp\tdm_hangar_OG16\terraintexture.pak<br>Game\Levels\africa\africa_junction04\terraintexture.pak<br>Game\Levels\africa\africa_junction04\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib167.torrent</td>
+<td class="added">Game\Levels\pvp\ptb_pyramid\level.pak<br>Game\Levels\pvp\ptb_pyramid\terraintexture.pak<br>Game\Levels\africa\africa_junction04\terraintexture.pak<br>Game\Levels\africa\africa_junction04\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib168.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib169.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib170.torrent</td>
+<td class="added">Game\Levels\survival\zombie_tower_base\terraintexture.pak<br>Game\Levels\survival\zombie_tower_base\level.pak<br>Game\Levels\survival\zombie_tower\terraintexture.pak<br>Game\Levels\survival\zombie_tower\tags.txt<br>Game\Levels\survival\zombie_tower\preloadlibs.txt<br>Game\Levels\survival\zombie_tower\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib171.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib172.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib173.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib174.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib175.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib176.torrent</td>
+<td class="added">Game\Levels\pvp\tbs_hawkrock\level.pak<br>Game\Levels\pvp\tbs_hawkrock\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib177.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib178.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib179.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib180.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib181.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib182.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib183.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib185.torrent</td>
+<td class="added">Game\Levels\survival\icebreaker\icebreaker_base\terraintexture.pak<br>Game\Levels\survival\icebreaker\icebreaker_base\level.pak<br>Game\Levels\survival\icebreaker\icebreaker_base\icebreaker_base_tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_base\ExportedLayers.lay<br>Game\Levels\survival\icebreaker\icebreaker_act4_boss\terraintexture.pak<br>Game\Levels\survival\icebreaker\icebreaker_act4_boss\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act4_boss\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act4_boss\level.pak<br>Game\Levels\survival\icebreaker\icebreaker_act3\terraintexture.pak<br>Game\Levels\survival\icebreaker\icebreaker_act3\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act3\level.pak<br>Game\Levels\survival\icebreaker\icebreaker_act3\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act3\icebreaker_act3_tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_act3\icebreaker_act3_probe.tod<br>Game\Levels\survival\icebreaker\icebreaker_act2\terraintexture.pak<br>Game\Levels\survival\icebreaker\icebreaker_act2\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act2\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act2\level.pak<br>Game\Levels\survival\icebreaker\icebreaker_act2\icebreaker_act2_sun_position.lgt<br>Game\Levels\survival\icebreaker\icebreaker_act2\icebreaker_act2_tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_act2\icebreaker_act2_probe.tod<br>Game\Levels\survival\icebreaker\icebreaker_act1\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act1\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act1\terraintexture.pak<br>Game\Levels\survival\icebreaker\icebreaker_act1\icebreaker_act1_sun_position.lgt<br>Game\Levels\survival\icebreaker\icebreaker_act1\level.pak<br>Game\Levels\survival\icebreaker\icebreaker_act1\icebreaker_act1_tod_probe.tod<br>Game\Levels\survival\icebreaker\icebreaker_act1\icebreaker_act1_tod_b.tod<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak</td>
+<td class="removed">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib190.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib192.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib193.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib194.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib195.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib196.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib197.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib198.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib199.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib200.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib201.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib202.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib203.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib204.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib205.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_motel\terraintexture.pak<br>Game\Levels\pvp\tdm_motel\tags.txt<br>Game\Levels\pvp\tdm_motel\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib206.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib207.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib208.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib209.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib210.torrent</td>
+<td class="added">Game\Levels\pvp\tbs_waterfalling\tod_new.tod<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak</td>
+<td class="removed">GameIcon.ico</td>
+</tr>
+<tr>
+<td>warfacedistrib211.torrent</td>
+<td class="added">GameIcon.ico</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib212.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib213.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib214.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib215.torrent</td>
+<td class="added">Game\Levels\survival\escape\escape_intro\terraintexture.pak<br>Game\Levels\survival\escape\escape_intro\level.pak<br>Game\Levels\survival\escape\escape_base\terraintexture.pak<br>Game\Levels\survival\escape\escape_base\level.pak<br>Game\Levels\survival\escape\escape_act3\tags.txt<br>Game\Levels\survival\escape\escape_act3\terraintexture.pak<br>Game\Levels\survival\escape\escape_act3\level.pak<br>Game\Levels\survival\escape\escape_act2\terraintexture.pak<br>Game\Levels\survival\escape\escape_act2\tags.txt<br>Game\Levels\survival\escape\escape_act2\level.pak<br>Game\Levels\survival\escape\escape_act1\terraintexture.pak<br>Game\Levels\survival\escape\escape_act1\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib216.torrent</td>
+<td class="added">Bin32Release\mraclaunchapi.dll<br>Bin32Release\mracinstall.exe<br>Bin32Release\mrac.cfg</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib217.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib218.torrent</td>
+<td class="added">Game\Levels\pvp\ptb_bridges_up\terraintexture.pak<br>Game\Levels\pvp\ptb_bridges_up\ptb_bridges_up_tod.tod<br>Game\Levels\pvp\ptb_bridges_up\level.pak</td>
+<td class="removed">Game\Levels\pvp\ptb_overpass\terraintexture.pak<br>Game\Levels\pvp\ptb_overpass\level.pak<br>Game\Levels\pvp\ptb_bridges\terraintexture.pak<br>Game\Levels\pvp\ptb_bridges\level.pak<br>Game\Levels\pvp\ffa_overpass\terraintexture.pak<br>Game\Levels\pvp\ffa_overpass\level.pak<br>Game\Levels\pvp\ctf_convoy\terraintexture.pak<br>Game\Levels\pvp\ctf_convoy\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib219.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib220.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib221.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib222.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\ptb_mine\terraintexture.pak<br>Game\Levels\pvp\ptb_mine\level.pak<br>Game\Levels\pvp\ptb_mine\tags.txt</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib223.torrent</td>
+<td class=""></td>
+<td class="removed">Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\ptb_mine\terraintexture.pak<br>Game\Levels\pvp\ptb_mine\level.pak<br>Game\Levels\pvp\ptb_mine\tags.txt</td>
+</tr>
+<tr>
+<td>warfacedistrib224.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Bin32Release\upd_script.cmd</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib225.torrent</td>
+<td class=""></td>
+<td class="removed">Bin32Release\upd_script.cmd</td>
+</tr>
+<tr>
+<td>warfacedistrib226.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib227.torrent</td>
+<td class="added">Bin32Release\mracinstall64.exe</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib228.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib229.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib230.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib231.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib232.torrent</td>
+<td class="added">Game\Levels\pvp\lms_mojave\terraintexture.pak<br>Game\Levels\pvp\lms_mojave\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib233.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib234.torrent</td>
+<td class="added">Bin32Release\mracp.dll</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib235.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib236.torrent</td>
+<td class="added">Game\Levels\china\china_path02\preloadlibs.txt<br>Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\survival\chernobyl\chernobyl_base\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_base\terraintexture.pak<br>Game\Levels\survival\chernobyl\chernobyl_base\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_base\level.pak<br>Game\Levels\survival\chernobyl\chernobyl_act3\terraintexture.pak<br>Game\Levels\survival\chernobyl\chernobyl_act3\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_act3\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_act3\level.pak<br>Game\Levels\survival\chernobyl\chernobyl_act2\terraintexture.pak<br>Game\Levels\survival\chernobyl\chernobyl_act2\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_act2\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_act2\level.pak<br>Game\Levels\survival\chernobyl\chernobyl_act1\terraintexture.pak<br>Game\Levels\survival\chernobyl\chernobyl_act1\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_act1\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_act1\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\tod_new.tod<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\tags.txt<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\preloadlibs.txt<br>Game\Levels\pvp\hnt_winter_xmas\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tbs_waterfalling\tod_new.tod<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib237.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib238.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib239.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib240.torrent</td>
+<td class=""></td>
+<td class="removed">Game\Levels\pvp\tdm_grand_bazaar\terraintexture.pak<br>Game\Levels\pvp\tdm_grand_bazaar\tags.txt<br>Game\Levels\pvp\tdm_grand_bazaar\level.pak<br>Game\Levels\pvp\tdm_grand_bazaar\LevelDesign_Changelist.txt</td>
+</tr>
+<tr>
+<td>warfacedistrib241.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib242.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib243.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib244.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tbs_waterfalling\tod_new.tod<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak</td>
+<td class="removed">Game\Levels\zombie\zombie_convoy\tags.txt<br>Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\survival\zombie_tower\tags.txt<br>Game\Levels\survival\zombie_tower\preloadlibs.txt<br>Game\Levels\survival\snow_fortress_act3_boss\tags.txt<br>Game\Levels\survival\snow_fortress_base\tags.txt<br>Game\Levels\survival\snow_fortress_act2\tags.txt<br>Game\Levels\survival\snow_fortress_act3\tags.txt<br>Game\Levels\survival\snow_fortress_act1\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act4_boss\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act4_boss\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act3\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act3\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act2\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act2\preloadlibs.txt<br>Game\Levels\survival\icebreaker\icebreaker_act1\tags.txt<br>Game\Levels\survival\icebreaker\icebreaker_act1\preloadlibs.txt<br>Game\Levels\survival\escape\escape_act3\tags.txt<br>Game\Levels\survival\escape\escape_act2\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_base\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_base\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_act3\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_act3\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_act2\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_act2\preloadlibs.txt<br>Game\Levels\survival\chernobyl\chernobyl_act1\tags.txt<br>Game\Levels\survival\chernobyl\chernobyl_act1\preloadlibs.txt<br>Game\Levels\survival\anubis_base\tags.txt<br>Game\Levels\survival\anubis_act3\tags.txt<br>Game\Levels\survival\anubis_act3\preloadlibs.txt<br>Game\Levels\survival\anubis_act2\tags.txt<br>Game\Levels\survival\anubis_act2\preloadlibs.txt<br>Game\Levels\survival\anubis_act1\tags.txt<br>Game\Levels\survival\anubis_act1\preloadlibs.txt<br>Game\Levels\survival\africa_survival\tags.txt<br>Game\Levels\pvp\tdm_residential\tags.txt<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_motel\tags.txt<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\tags.txt<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tdm_airbase\tags.txt<br>Game\Levels\pvp\tbs_waterfalling_xmas\tod_new.tod<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\tags.txt<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\preloadlibs.txt<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\hnt_night_motel\preloadlibs.txt<br>Game\Levels\pvp\hnt_africa\preloadlibs.txt<br>Game\Levels\pvp\ctf_quarry\tags.txt<br>Game\Levels\kosovo\kosovo_junction01\tags.txt<br>Game\Levels\favela\favela_path05\start.txt<br>Game\Levels\favela\favela_path04\start.txt<br>Game\Levels\favela\favela_path03\start.txt<br>Game\Levels\favela\favela_path02\tags.txt<br>Game\Levels\favela\favela_path02\start.txt<br>Game\Levels\favela\favela_junction03\tags.txt<br>Game\Levels\favela\favela_junction01\start.txt<br>Game\Levels\china\china_path02\preloadlibs.txt<br>Game\Levels\china\china_junction05\tags.txt<br>Game\Levels\africa\africa_path08\tags.txt<br>Game\Levels\africa\africa_path05\tags.txt<br>Game\Levels\afghan\afghan_path09\tags.txt<br>Game\Levels\afghan\afghan_junction04\tags.txt</td>
+</tr>
+<tr>
+<td>warfacedistrib245.torrent</td>
+<td class=""></td>
+<td class="removed">Game\Levels\survival\snow_fortress_base\rw_ToD_Master.tod<br>Game\Levels\survival\snow_fortress_act2\tod.tod<br>Game\Levels\survival\snow_fortress_act2\ScreenshotMap.Settings<br>Game\Levels\survival\snow_fortress_act1\tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_base\icebreaker_base_tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_base\ExportedLayers.lay<br>Game\Levels\survival\icebreaker\icebreaker_act3\icebreaker_act3_tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_act3\icebreaker_act3_probe.tod<br>Game\Levels\survival\icebreaker\icebreaker_act2\icebreaker_act2_tod.tod<br>Game\Levels\survival\icebreaker\icebreaker_act2\icebreaker_act2_sun_position.lgt<br>Game\Levels\survival\icebreaker\icebreaker_act2\icebreaker_act2_probe.tod<br>Game\Levels\survival\icebreaker\icebreaker_act1\icebreaker_act1_tod_probe.tod<br>Game\Levels\survival\icebreaker\icebreaker_act1\icebreaker_act1_tod_b.tod<br>Game\Levels\survival\icebreaker\icebreaker_act1\icebreaker_act1_sun_position.lgt<br>Game\Levels\survival\anubis_act1\tod\last_tod_base.tod<br>Game\Levels\survival\anubis_act1\tod\20.10.2015.tod<br>Game\Levels\pvp\tdm_farm\afghan.tod<br>Game\Levels\pvp\tbs_waterfalling\tod_new.tod<br>Game\Levels\pvp\ptb_bridges_up\ptb_bridges_up_tod.tod<br>Game\Levels\pvp\hnt_night_motel\night_tod.tod<br>Game\Levels\pvp\hnt_africa\hnt_africa.tod<br>Game\Levels\pvp\ffa_train\kosovo_tod.tod<br>Game\Levels\kosovo\kosovo_junction01\terrain\cover.ctc<br>Game\Levels\hideout\level.cfg<br>Game\Levels\Tutorial\soldier\tod.tod</td>
+</tr>
+<tr>
+<td>warfacedistrib246.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib247.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib248.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib249.torrent</td>
+<td class="added">Game\Levels\pvp\ptb_afghan_up\terraintexture.pak<br>Game\Levels\pvp\ptb_afghan_up\level.pak</td>
+<td class="removed">Bin32Release\ocevogyv.x86<br>Game\Levels\pvp\ptb_afghan\terraintexture.pak<br>Game\Levels\pvp\ptb_afghan\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib250.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib251.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib252.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_ghost_town\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib253.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib254.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib255.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib256.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib257.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_hangar_OG16\level.pak<br>Game\Levels\pvp\tdm_hangar_OG16\terraintexture.pak</td>
+<td class="removed">Game\Levels\xmass_hideout\level.pak<br>Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction01\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction01\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib258.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib259.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\pvp\tdm_oildepot_wc18\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_wc18\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib260.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib261.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib262.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib263.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib264.torrent</td>
+<td class="added">Game\Levels\pvp\ctf_vault_fwc\terraintexture.pak<br>Game\Levels\pvp\ctf_vault_fwc\level.pak</td>
+<td class="removed">Game\Levels\xmass_hideout\level.pak<br>Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\pvp\lms_mojave\terraintexture.pak<br>Game\Levels\pvp\lms_mojave\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib265.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib266.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib267.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib268.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib269.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib270.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\level.pak<br>Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\pvp\ptb_factory_up\terraintexture.pak<br>Game\Levels\pvp\ptb_factory_up\level.pak<br>Game\Levels\pvp\lms_pripyat\terraintexture.pak<br>Game\Levels\pvp\lms_mojave\level.pak<br>Game\Levels\pvp\lms_pripyat\level.pak<br>Game\Levels\pvp\lms_mojave\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\ptb_factory\level.pak<br>Game\Levels\pvp\ptb_factory\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib271.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib272.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib273.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib274.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib275.torrent</td>
+<td class="added">Bin32Release\vivoxsdk.dll<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Bin32Release\ortp.dll</td>
+<td class="removed">Bin32Release\PhysXDevice.dll<br>Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\pvp\tdm_oildepot_wc18\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_wc18\level.pak<br>Game\Levels\pvp\tdm_hangar_OG16\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_OG16\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\terraintexture.pak<br>Bin32Release\PhysX3Common_x86.dll<br>Bin32Release\PhysX3Cooking_x86.dll<br>Bin32Release\PhysX3Gpu_x86.dll<br>Bin32Release\PhysX3_x86.dll<br>Bin32Release\ApexFramework_x86.dll<br>Bin32Release\APEX_TurbulenceFS_x86.dll<br>Bin32Release\APEX_Particles_x86.dll<br>Bin32Release\APEX_Legacy_x86.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib276.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib277.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib278.torrent</td>
+<td class="added">Game\Levels\pvp\tbs_deepwater\terraintexture.pak<br>Game\Levels\pvp\tbs_deepwater\level.pak</td>
+<td class="removed">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib279.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib280.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib281.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_streetwars\level.pak<br>Game\Levels\pvp\tdm_streetwars\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\level.pak<br>Game\Levels\pvp\tdm_farm\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib282.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_streetwars\level.pak<br>Game\Levels\pvp\tdm_streetwars\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\level.pak</td>
+<td class="removed">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib283.torrent</td>
+<td class=""></td>
+<td class="removed">Bin32Release\mracp.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib284.torrent</td>
+<td class="added">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak</td>
+<td class="removed">Bin32Release\diag.xml</td>
+</tr>
+<tr>
+<td>warfacedistrib285.torrent</td>
+<td class="added">Bin32Release\diag.xml</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib286.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib287.torrent</td>
+<td class="added">Game\Levels\survival\japan\japan_act4\terraintexture.pak<br>Game\Levels\survival\japan\japan_base\terraintexture.pak<br>Game\Levels\survival\japan\japan_base\level.pak<br>Game\Levels\survival\japan\japan_act4\level.pak<br>Game\Levels\survival\japan\japan_act3\level.pak<br>Game\Levels\survival\japan\japan_act3\terraintexture.pak<br>Game\Levels\survival\japan\japan_act2\terraintexture.pak<br>Game\Levels\survival\japan\japan_act1\terraintexture.pak<br>Game\Levels\survival\japan\japan_act2\level.pak<br>Game\Levels\survival\japan\japan_act1\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib288.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib289.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib290.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\ffa_japan\level.pak<br>Game\Levels\pvp\ffa_japan\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib291.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib292.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib293.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib294.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib295.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib296.torrent</td>
+<td class="added">Game\Levels\pvp\ffa_widestreet_up\terraintexture.pak<br>Game\Levels\pvp\ffa_widestreet_up\level.pak<br>Game\Levels\kosovo\kosovo_junction01\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction01\level.pak<br>Game\Levels\Initiation\terraintexture.pak<br>Game\Levels\Initiation\level.pak</td>
+<td class="removed">Game\Levels\pvp\ffa_widestreet\terraintexture.pak<br>Game\Levels\pvp\ffa_widestreet\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib297.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib298.torrent</td>
+<td class="added">Bin32Release\License.txt</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib299.torrent</td>
+<td class=""></td>
+<td class="removed">Game\Textures_Levels_Kosovo.pak<br>Game\Levels\kosovo\kosovo_path08\level.pak<br>Game\Levels\kosovo\kosovo_path08\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path06\level.pak<br>Game\Levels\kosovo\kosovo_path06\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path07\level.pak<br>Game\Levels\kosovo\kosovo_path07\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path05\level.pak<br>Game\Levels\kosovo\kosovo_path05\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path03\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path04\level.pak<br>Game\Levels\kosovo\kosovo_path04\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path02\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path03\level.pak<br>Game\Levels\kosovo\kosovo_path02\level.pak<br>Game\Levels\kosovo\kosovo_junction05\level.pak<br>Game\Levels\kosovo\kosovo_junction05\terraintexture.pak<br>Game\Levels\kosovo\kosovo_path01\level.pak<br>Game\Levels\kosovo\kosovo_path01\terraintexture.pak<br>Game\Levels\kosovo\kosovo_base\level.pak<br>Game\Levels\kosovo\kosovo_base\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction01\level.pak<br>Game\Levels\kosovo\kosovo_junction01\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction02\level.pak<br>Game\Levels\kosovo\kosovo_junction02\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction03\level.pak<br>Game\Levels\kosovo\kosovo_junction03\terraintexture.pak<br>Game\Levels\kosovo\kosovo_junction04\level.pak<br>Game\Levels\kosovo\kosovo_junction04\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib300.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib301.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib317.torrent</td>
+<td class="added">Game\Localized\Video\Logo_MyGames.usm<br>Game\Levels\survival\mars\mars_base\level.pak<br>Game\Levels\survival\mars\mars_act4\terraintexture.pak<br>Game\Levels\survival\mars\mars_act4\level.pak<br>Game\Levels\survival\mars\mars_act3\terraintexture.pak<br>Game\Levels\survival\mars\mars_act3\level.pak<br>Game\Levels\survival\mars\mars_act2\terraintexture.pak<br>Game\Levels\survival\mars\mars_act2\level.pak<br>Game\Levels\survival\mars\mars_act1\terraintexture.pak<br>Game\Levels\survival\mars\mars_act1\level.pak<br>Game\Levels\pvp\tdm_hangar_OG16\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_OG16\level.pak<br>Game\Levels\pvp\dst_mars\terraintexture.pak<br>Game\Levels\pvp\dst_mars\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\terraintexture.pak<br>Game\Levels\pvp\ctf_vault_fwc\level.pak<br>Game\Levels\hideout_promotion\level.pak<br>Game\Levels\hideout_promotion\terraintexture.pak<br>Game\GameScriptsC_x86.pak<br>Game\GameScriptsC_x64.pak<br>Bin64Release\vivoxsdk_x64.dll<br>Bin64Release\ucrtbase.dll<br>Bin64Release\vcruntime140.dll<br>Bin64Release\pcnsl.exe<br>Bin64Release\ortp_x64.dll<br>Bin64Release\ocevogyv.dll<br>Bin64Release\nvToolsExt32_1.dll<br>Bin64Release\msvcp140.dll<br>Bin64Release\mraclaunchapi64.dll<br>Bin64Release\mracinstall64.exe<br>Bin64Release\mrac64.dll<br>Bin64Release\mrac.cfg<br>Bin64Release\libcurl.dll<br>Bin64Release\jansson.dll<br>Bin64Release\fmodex64.dll<br>Bin64Release\fmod_event_net64.dll<br>Bin64Release\fmod_event64.dll<br>Bin64Release\discord_game_sdk.dll<br>Bin64Release\diag.xml<br>Bin64Release\cacert.pem<br>Bin64Release\api-ms-win-crt-utility-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-time-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-string-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-stdio-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-runtime-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-process-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-private-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-multibyte-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-math-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-locale-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-heap-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-filesystem-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-environment-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-convert-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-conio-l1-1-0.dll<br>Bin64Release\api-ms-win-core-util-l1-1-0.dll<br>Bin64Release\api-ms-win-core-timezone-l1-1-0.dll<br>Bin64Release\api-ms-win-core-sysinfo-l1-1-0.dll<br>Bin64Release\api-ms-win-core-synch-l1-2-0.dll<br>Bin64Release\api-ms-win-core-synch-l1-1-0.dll<br>Bin64Release\api-ms-win-core-string-l1-1-0.dll<br>Bin64Release\api-ms-win-core-rtlsupport-l1-1-0.dll<br>Bin64Release\api-ms-win-core-profile-l1-1-0.dll<br>Bin64Release\api-ms-win-core-processthreads-l1-1-1.dll<br>Bin64Release\api-ms-win-core-processthreads-l1-1-0.dll<br>Bin64Release\api-ms-win-core-processenvironment-l1-1-0.dll<br>Bin64Release\api-ms-win-core-namedpipe-l1-1-0.dll<br>Bin64Release\api-ms-win-core-memory-l1-1-0.dll<br>Bin64Release\api-ms-win-core-localization-l1-2-0.dll<br>Bin64Release\api-ms-win-core-libraryloader-l1-1-0.dll<br>Bin64Release\api-ms-win-core-interlocked-l1-1-0.dll<br>Bin64Release\api-ms-win-core-heap-l1-1-0.dll<br>Bin64Release\api-ms-win-core-handle-l1-1-0.dll<br>Bin64Release\api-ms-win-core-file-l2-1-0.dll<br>Bin64Release\api-ms-win-core-file-l1-2-0.dll<br>Bin64Release\api-ms-win-core-file-l1-1-0.dll<br>Bin64Release\api-ms-win-core-errorhandling-l1-1-0.dll<br>Bin64Release\api-ms-win-core-debug-l1-1-0.dll<br>Bin64Release\api-ms-win-core-datetime-l1-1-0.dll<br>Bin64Release\api-ms-win-core-console-l1-1-0.dll<br>Bin64Release\License.txt<br>Bin64Release\Game.exe<br>Bin64Release\GFSDK_GSA.win64.dll<br>Bin64Release\D3DX9_42.dll<br>Bin64Release\D3DCompiler_42.dll<br>Bin64Release\CryOnline.dll<br>Bin64Release\CrashSender1402.exe<br>Bin64Release\CrashRpt1402.dll<br>Bin32Release\vcruntime140.dll<br>Bin32Release\ucrtbase.dll<br>Bin32Release\mraclaunchapi64.dll<br>Bin32Release\msvcp140.dll<br>Bin32Release\discord_game_sdk.dll<br>Bin32Release\api-ms-win-crt-utility-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-time-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-stdio-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-string-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-runtime-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-private-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-process-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-math-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-multibyte-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-locale-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-filesystem-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-environment-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-convert-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-conio-l1-1-0.dll<br>Bin32Release\api-ms-win-core-util-l1-1-0.dll<br>Bin32Release\api-ms-win-core-timezone-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-2-0.dll<br>Bin32Release\api-ms-win-core-sysinfo-l1-1-0.dll<br>Bin32Release\api-ms-win-core-string-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-1-0.dll<br>Bin32Release\api-ms-win-core-rtlsupport-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-1.dll<br>Bin32Release\api-ms-win-core-profile-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-0.dll<br>Bin32Release\api-ms-win-core-namedpipe-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processenvironment-l1-1-0.dll<br>Bin32Release\api-ms-win-core-memory-l1-1-0.dll<br>Bin32Release\api-ms-win-core-localization-l1-2-0.dll<br>Bin32Release\api-ms-win-core-interlocked-l1-1-0.dll<br>Bin32Release\api-ms-win-core-libraryloader-l1-1-0.dll<br>Bin32Release\api-ms-win-core-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-core-handle-l1-1-0.dll<br>Bin32Release\api-ms-win-core-file-l2-1-0.dll<br>Bin32Release\api-ms-win-core-file-l1-2-0.dll<br>Bin32Release\api-ms-win-core-file-l1-1-0.dll<br>Bin32Release\api-ms-win-core-errorhandling-l1-1-0.dll<br>Bin32Release\api-ms-win-core-debug-l1-1-0.dll<br>Bin32Release\api-ms-win-core-datetime-l1-1-0.dll<br>Bin32Release\api-ms-win-core-console-l1-1-0.dll<br>Bin32Release\API-MS-Win-core-xstate-l2-1-0.dll</td>
+<td class="removed">Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\ctf_vault\level.pak<br>Game\Levels\pvp\ctf_vault\terraintexture.pak<br>Bin32Release\msvcp110.dll<br>Bin32Release\msvcr110.dll<br>Game\GameScriptsC.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib319.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\ctf_vault\terraintexture.pak<br>Game\Levels\pvp\ctf_vault\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_hangar_OG16\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_OG16\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\terraintexture.pak<br>Game\Levels\pvp\ctf_vault_fwc\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib330.torrent</td>
+<td class="added">Game\Objects_Characters_Other.pak<br>Game\Objects_Architecture_survival_Other.pak<br>Game\Objects_Architecture_Other.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\bw_hideout_xmass\terraintexture.pak<br>Game\Levels\bw_hideout\level.pak<br>Game\Levels\bw_hideout\terraintexture.pak<br>Game\Levels\bw_hideout_xmass\level.pak<br>Game\Levels\arena\coliseum_boss\terraintexture.pak<br>Game\Levels\arena\coliseum\terraintexture.pak<br>Game\Levels\arena\coliseum_base\level.pak<br>Game\Levels\arena\coliseum_base\terraintexture.pak<br>Game\Levels\arena\coliseum_boss\level.pak<br>Game\Levels\arena\coliseum\level.pak<br>Bin64Release\steam_api64.dll<br>Bin64Release\GfeSDK.dll<br>Bin32Release\steam_api.dll<br>Bin32Release\GfeSDK.dll</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\level.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak<br>Bin32Release\ijl15.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib339.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\level.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak<br>Bin64Release\d3dx10_42.dll</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Bin64Release\libcurl.dll<br>Bin64Release\jansson.dll<br>Bin64Release\cacert.pem<br>Bin64Release\CryOnline.dll<br>Bin32Release\vivoxsdk.dll<br>Bin32Release\ssleay32.dll<br>Bin32Release\steam_api.dll<br>Bin32Release\ucrtbase.dll<br>Bin32Release\vcruntime140.dll<br>Bin32Release\pcnsl.exe<br>Bin32Release\ortp.dll<br>Bin32Release\ocevogyv.dll<br>Bin32Release\nvToolsExt32_1.dll<br>Bin32Release\msvcp140.dll<br>Bin32Release\mraclaunchapi64.dll<br>Bin32Release\mraclaunchapi.dll<br>Bin32Release\mracinstall64.exe<br>Bin32Release\mracinstall.exe<br>Bin32Release\mrac.dll<br>Bin32Release\mrac.cfg<br>Bin32Release\libeay32.dll<br>Bin32Release\libcurl.dll<br>Bin32Release\jansson.dll<br>Bin32Release\fmodex.dll<br>Bin32Release\fmod_event_net.dll<br>Bin32Release\fmod_event.dll<br>Bin32Release\discord_game_sdk.dll<br>Bin32Release\diag.xml<br>Bin32Release\d3dx10_42.dll<br>Bin32Release\cacert.pem<br>Bin32Release\api-ms-win-crt-utility-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-time-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-string-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-stdio-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-runtime-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-process-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-private-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-multibyte-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-math-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-locale-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-filesystem-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-environment-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-convert-l1-1-0.dll<br>Bin32Release\api-ms-win-core-timezone-l1-1-0.dll<br>Bin32Release\api-ms-win-core-util-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-conio-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-2-0.dll<br>Bin32Release\api-ms-win-core-sysinfo-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-1-0.dll<br>Bin32Release\api-ms-win-core-string-l1-1-0.dll<br>Bin32Release\api-ms-win-core-rtlsupport-l1-1-0.dll<br>Bin32Release\api-ms-win-core-profile-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-1.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processenvironment-l1-1-0.dll<br>Bin32Release\api-ms-win-core-namedpipe-l1-1-0.dll<br>Bin32Release\api-ms-win-core-libraryloader-l1-1-0.dll<br>Bin32Release\api-ms-win-core-localization-l1-2-0.dll<br>Bin32Release\api-ms-win-core-memory-l1-1-0.dll<br>Bin32Release\api-ms-win-core-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-core-interlocked-l1-1-0.dll<br>Bin32Release\api-ms-win-core-handle-l1-1-0.dll<br>Bin32Release\api-ms-win-core-file-l2-1-0.dll<br>Bin32Release\api-ms-win-core-file-l1-2-0.dll<br>Bin32Release\api-ms-win-core-file-l1-1-0.dll<br>Bin32Release\api-ms-win-core-errorhandling-l1-1-0.dll<br>Bin32Release\api-ms-win-core-debug-l1-1-0.dll<br>Bin32Release\api-ms-win-core-datetime-l1-1-0.dll<br>Bin32Release\api-ms-win-core-console-l1-1-0.dll<br>Bin32Release\License.txt<br>Bin32Release\GfeSDK.dll<br>Bin32Release\Game.exe<br>Bin32Release\GFSDK_GSA.win32.dll<br>Bin32Release\D3DX9_42.dll<br>Bin32Release\D3DCompiler_42.dll<br>Bin32Release\CryOnline.dll<br>Bin32Release\CrashSender1402.exe<br>Bin32Release\CrashRpt1402.dll<br>Bin32Release\API-MS-Win-core-xstate-l2-1-0.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib344.torrent</td>
+<td class="added">Bin32Release\api-ms-win-core-debug-l1-1-0.dll<br>Bin32Release\api-ms-win-core-file-l1-1-0.dll<br>Bin32Release\api-ms-win-core-file-l1-2-0.dll<br>Bin32Release\api-ms-win-core-file-l2-1-0.dll<br>Bin32Release\api-ms-win-core-handle-l1-1-0.dll<br>Bin32Release\api-ms-win-core-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-core-interlocked-l1-1-0.dll<br>Bin32Release\api-ms-win-core-libraryloader-l1-1-0.dll<br>Bin32Release\api-ms-win-core-localization-l1-2-0.dll<br>Bin32Release\api-ms-win-core-memory-l1-1-0.dll<br>Bin32Release\api-ms-win-core-namedpipe-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processenvironment-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-1.dll<br>Bin32Release\api-ms-win-core-profile-l1-1-0.dll<br>Bin32Release\api-ms-win-core-rtlsupport-l1-1-0.dll<br>Bin32Release\api-ms-win-core-string-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-2-0.dll<br>Bin32Release\api-ms-win-core-sysinfo-l1-1-0.dll<br>Bin32Release\api-ms-win-core-timezone-l1-1-0.dll<br>Bin32Release\api-ms-win-core-util-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-conio-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-convert-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-environment-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-filesystem-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-locale-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-math-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-multibyte-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-private-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-process-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-runtime-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-stdio-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-string-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-time-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-utility-l1-1-0.dll<br>Bin32Release\d3dx10_42.dll<br>Bin32Release\diag.xml<br>Bin32Release\discord_game_sdk.dll<br>Bin32Release\fmod_event.dll<br>Bin32Release\fmod_event_net.dll<br>Bin32Release\fmodex.dll<br>Bin32Release\libeay32.dll<br>Bin32Release\mrac.cfg<br>Bin32Release\mrac.dll<br>Bin32Release\mracinstall.exe<br>Bin32Release\mracinstall64.exe<br>Bin32Release\mraclaunchapi.dll<br>Bin32Release\mraclaunchapi64.dll<br>Bin32Release\msvcp140.dll<br>Bin32Release\nvToolsExt32_1.dll<br>Bin32Release\ocevogyv.dll<br>Bin32Release\ortp.dll<br>Bin32Release\pcnsl.exe<br>Bin32Release\ssleay32.dll<br>Bin32Release\steam_api.dll<br>Bin32Release\ucrtbase.dll<br>Bin32Release\vcruntime140.dll<br>Bin32Release\vivoxsdk.dll<br>Bin32Release\api-ms-win-core-errorhandling-l1-1-0.dll<br>Bin32Release\GFSDK_GSA.win32.dll<br>Bin32Release\Game.exe<br>Bin32Release\GfeSDK.dll<br>Bin32Release\License.txt<br>Bin32Release\api-ms-win-core-console-l1-1-0.dll<br>Bin32Release\api-ms-win-core-datetime-l1-1-0.dll<br>Bin32Release\CrashRpt1402.dll<br>Bin32Release\CrashSender1402.exe<br>Bin32Release\D3DCompiler_42.dll<br>Bin32Release\D3DX9_42.dll<br>Bin32Release\API-MS-Win-core-xstate-l2-1-0.dll</td>
+<td class="removed">Bin64Release\d3dx10_42.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib345.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepot_circus\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_circus\level.pak<br>Game\Levels\pvp\stm_blackgold_up\terraintexture.pak<br>Game\Levels\pvp\stm_blackgold_up\level.pak<br>Bin64Release\v8.dll<br>Bin64Release\v8_libbase.dll<br>Bin64Release\cohtml.WindowsDesktop.dll<br>Bin64Release\RenoirCore.WindowsDesktop.dll<br>Bin64Release\HttpServer.WindowsDesktop.dll<br>Bin32Release\v8_libbase.dll<br>Bin32Release\v8.dll<br>Bin32Release\cohtml.WindowsDesktop.dll<br>Bin32Release\RenoirCore.WindowsDesktop.dll<br>Bin32Release\HttpServer.WindowsDesktop.dll</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\stm_blackgold\level.pak<br>Game\Levels\pvp\stm_blackgold\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib346.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib348.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib349.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepot_circus\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_circus\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib350.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib355.torrent</td>
+<td class="added">Game\Levels\survival\raid\raid_base\terraintexture.pak<br>Game\Levels\survival\raid\raid\level.pak<br>Game\Levels\survival\raid\raid\terraintexture.pak<br>Game\Levels\survival\raid\raid_base\level.pak<br>Game\Levels\pvp\stm_blackwood\terraintexture.pak<br>Game\Levels\pvp\stm_blackwood\level.pak<br>Bin64Release\symsrv.dll<br>Bin64Release\OptickCore.dll<br>Bin32Release\symsrv.dll<br>Bin32Release\OptickCore.dll</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib357.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib361.torrent</td>
+<td class="added">Bin64Release\sonus.dll<br>Bin32Release\sonus.dll</td>
+<td class="removed">Game\Levels\hideout_promotion\terraintexture.pak<br>Game\Levels\hideout_promotion\level.pak<br>Game\Levels\hideout\terraintexture.pak<br>Game\Levels\hideout\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib364.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib367.torrent</td>
+<td class="added">Bin64Release\steam_appid.txt<br>Bin32Release\steam_appid.txt</td>
+<td class="removed">Game\Levels\xmass_hideout\terraintexture.pak<br>Game\Levels\xmass_hideout\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib373.torrent</td>
+<td class="added">Game\Localized\Video\class_movie_medic.usm<br>Game\Levels\pvp\ptb_district_up\terraintexture.pak<br>Game\Levels\pvp\ptb_district_up\level.pak<br>Game\Levels\intro\intro_zombie_tower\terraintexture.pak<br>Game\Levels\intro\intro_zombie_tower\level.pak<br>Game\Levels\intro\intro_japan\terraintexture.pak<br>Game\Levels\intro\intro_japan\level.pak<br>Game\Levels\intro\intro_icebreaker\terraintexture.pak<br>Game\Levels\intro\intro_icebreaker\level.pak<br>Game\Levels\intro\intro_chernobyl\terraintexture.pak<br>Game\Levels\intro\intro_chernobyl\level.pak<br>Game\Levels\intro\intro_base\terraintexture.pak<br>Game\Levels\intro\intro_base\level.pak<br>Game\Levels\intro\intro_anubis\terraintexture.pak<br>Game\Levels\intro\intro_anubis\level.pak</td>
+<td class="removed">Game\Localized\Video\Logo_MailRU.usm<br>Game\Levels\pvp\ptb_district\terraintexture.pak<br>Game\Levels\pvp\ptb_district\level.pak<br>Game\Levels\bw_hideout_xmass\terraintexture.pak<br>Game\Levels\bw_hideout_xmass\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib376.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\hnt_pripyat_hw\level.pak<br>Game\Levels\pvp\hnt_pripyat_hw\terraintexture.pak<br>Bin64Release\d3dcompiler_47.dll<br>Bin64Release\d3dx11_42.dll</td>
+<td class="removed">Game\Levels\pvp\tdm_streetwars\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars\level.pak<br>Game\Levels\pvp\tdm_farm\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\level.pak<br>Bin64Release\D3DCompiler_42.dll<br>Bin32Release\vivoxsdk.dll<br>Bin32Release\vcruntime140.dll<br>Bin32Release\v8_libbase.dll<br>Bin32Release\v8.dll<br>Bin32Release\ucrtbase.dll<br>Bin32Release\symsrv.dll<br>Bin32Release\steam_appid.txt<br>Bin32Release\steam_api.dll<br>Bin32Release\ssleay32.dll<br>Bin32Release\sonus.dll<br>Bin32Release\pcnsl.exe<br>Bin32Release\ortp.dll<br>Bin32Release\ocevogyv.dll<br>Bin32Release\nvToolsExt32_1.dll<br>Bin32Release\msvcp140.dll<br>Bin32Release\mraclaunchapi64.dll<br>Bin32Release\mraclaunchapi.dll<br>Bin32Release\mracinstall64.exe<br>Bin32Release\mracinstall.exe<br>Bin32Release\mrac.dll<br>Bin32Release\mrac.cfg<br>Bin32Release\libeay32.dll<br>Bin32Release\fmodex.dll<br>Bin32Release\fmod_event_net.dll<br>Bin32Release\fmod_event.dll<br>Bin32Release\discord_game_sdk.dll<br>Bin32Release\diag.xml<br>Bin32Release\d3dx10_42.dll<br>Bin32Release\cohtml.WindowsDesktop.dll<br>Bin32Release\api-ms-win-crt-utility-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-time-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-string-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-stdio-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-runtime-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-process-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-private-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-multibyte-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-math-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-locale-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-filesystem-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-environment-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-convert-l1-1-0.dll<br>Bin32Release\api-ms-win-crt-conio-l1-1-0.dll<br>Bin32Release\api-ms-win-core-util-l1-1-0.dll<br>Bin32Release\api-ms-win-core-timezone-l1-1-0.dll<br>Bin32Release\api-ms-win-core-sysinfo-l1-1-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-2-0.dll<br>Bin32Release\api-ms-win-core-synch-l1-1-0.dll<br>Bin32Release\api-ms-win-core-string-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processenvironment-l1-1-0.dll<br>Bin32Release\api-ms-win-core-rtlsupport-l1-1-0.dll<br>Bin32Release\api-ms-win-core-profile-l1-1-0.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-1.dll<br>Bin32Release\api-ms-win-core-processthreads-l1-1-0.dll<br>Bin32Release\api-ms-win-core-namedpipe-l1-1-0.dll<br>Bin32Release\api-ms-win-core-memory-l1-1-0.dll<br>Bin32Release\api-ms-win-core-localization-l1-2-0.dll<br>Bin32Release\api-ms-win-core-libraryloader-l1-1-0.dll<br>Bin32Release\api-ms-win-core-interlocked-l1-1-0.dll<br>Bin32Release\api-ms-win-core-heap-l1-1-0.dll<br>Bin32Release\api-ms-win-core-handle-l1-1-0.dll<br>Bin32Release\api-ms-win-core-file-l2-1-0.dll<br>Bin32Release\api-ms-win-core-file-l1-2-0.dll<br>Bin32Release\api-ms-win-core-file-l1-1-0.dll<br>Bin32Release\api-ms-win-core-errorhandling-l1-1-0.dll<br>Bin32Release\api-ms-win-core-debug-l1-1-0.dll<br>Bin32Release\api-ms-win-core-datetime-l1-1-0.dll<br>Bin32Release\api-ms-win-core-console-l1-1-0.dll<br>Bin32Release\RenoirCore.WindowsDesktop.dll<br>Bin32Release\OptickCore.dll<br>Bin32Release\License.txt<br>Bin32Release\HttpServer.WindowsDesktop.dll<br>Bin32Release\GfeSDK.dll<br>Bin32Release\Game.exe<br>Bin32Release\GFSDK_GSA.win32.dll<br>Bin32Release\CrashSender1402.exe<br>Bin32Release\D3DCompiler_42.dll<br>Bin32Release\D3DX9_42.dll<br>Bin32Release\API-MS-Win-core-xstate-l2-1-0.dll<br>Bin32Release\CrashRpt1402.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib377.torrent</td>
+<td class="added">Game\Levels\bw_hideout_arachnid\terraintexture.pak<br>Game\Levels\bw_hideout_arachnid\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib392.torrent</td>
+<td class="added">Game\Levels\survival\arachnid\arachnid_base\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_base\level.pak<br>Game\Levels\survival\arachnid\arachnid_act4\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act4\level.pak<br>Game\Levels\survival\arachnid\arachnid_act3\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act3\level.pak<br>Game\Levels\survival\arachnid\arachnid_act2\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act2\level.pak<br>Game\Levels\survival\arachnid\arachnid_act1\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act1\level.pak<br>Game\Levels\pvp\tdm_swarm\terraintexture.pak<br>Game\Levels\pvp\tdm_swarm\level.pak<br>Game\Levels\pvp\tdm_streetwars\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tdm_farm\terraintexture.pak<br>Game\Levels\pvp\tdm_farm\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\ffa_district_up\terraintexture.pak<br>Game\Levels\pvp\ffa_district_up\level.pak<br>Game\Levels\pvp\ffa_afghan_up\terraintexture.pak<br>Game\Levels\pvp\ffa_afghan_up\level.pak<br>Bin64Release\anzu.dll<br>Bin64Release\MediaDecoders.WindowsDesktop.dll<br>Bin64Release\GameDX11.exe<br>Game\Objects_Weapons_pt.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_ghost_town\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib393.torrent</td>
+<td class="added">Bin64Release\WFDX11Check.exe</td>
+<td class="removed">Game\Levels\pvp\tdm_hangar_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_xmas\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib395.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib397.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib405.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up\level.pak<br>Game\Levels\pvp\tdm_hangar_up\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\level.pak<br>Game\Levels\pvp\tdm_ghost_town\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling\level.pak<br>Game\Levels\pvp\hnt_winter\terraintexture.pak<br>Game\Levels\pvp\hnt_winter\level.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib408.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib421.torrent</td>
+<td class="added">Game\Levels\survival\heist\heist_roof\terraintexture.pak<br>Game\Levels\survival\heist\heist_roof\level.pak<br>Game\Levels\survival\heist\heist_base\terraintexture.pak<br>Game\Levels\survival\heist\heist_base\level.pak<br>Game\Levels\survival\heist\heist\terraintexture.pak<br>Game\Levels\survival\heist\heist\level.pak<br>Game\Levels\pvp\tbs_heist\level.pak<br>Game\Levels\pvp\tbs_heist\terraintexture.pak<br>Game\Levels\hideout_heist\terraintexture.pak<br>Game\Levels\hideout_heist\level.pak<br>Bin64Release\ShaderCacheMissReporter.dll<br>Game\Objects_Weapons_smg4.pak<br>Game\Objects_Weapons_ar3.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib424.torrent</td>
+<td class="added">DiagPngTrace.exe<br>process.txt<br>libpng16-16.dll</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib425.torrent</td>
+<td class="added">Bin64Release\EOSSDK-Win64-Shipping.dll<br>Game\Objects_Weapons_shg02.pak<br>Game\Levels\hideout_hb_mygames\terraintexture.pak<br>Game\Levels\hideout_hb_mygames\level.pak</td>
+<td class="removed">Game\Levels\bw_hideout_arachnid\terraintexture.pak<br>Game\Levels\bw_hideout_arachnid\level.pak<br>Game\Levels\bw_hideout\terraintexture.pak<br>Game\Levels\bw_hideout\level.pak<br>DiagPngTrace.exe<br>Bin64Release\ShaderCacheMissReporter.dll<br>process.txt<br>libpng16-16.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib438.torrent</td>
+<td class="added">Game\Objects_Weapons_sr02.pak<br>process.txt<br>libpng16-16.dll<br>Game\Levels\pvp\tdm_oildepot_wc18\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_wc18\level.pak<br>Game\Levels\pvp\ctf_ruins_2\level.pak<br>Game\Levels\pvp\ctf_ruins_2\terraintexture.pak<br>Game\Levels\pvp\ctf_vault_fwc\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\terraintexture.pak<br>Game\Levels\hideout_valkyrie\terraintexture.pak<br>Game\Levels\hideout_valkyrie\level.pak<br>DiagPngTrace.exe</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\ctf_vault\terraintexture.pak<br>Game\Levels\pvp\ctf_vault\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib452.torrent</td>
+<td class="added">Game\Levels\bw_hideout\level.pak<br>Game\Levels\bw_hideout\terraintexture.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib453.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib455.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib458.torrent</td>
+<td class="added">VC_redist.x64.exe<br>Game\Levels\pvp\tdm_oildepotv3\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3\level.pak<br>Game\Levels\pvp\tdm_hangar_fs\level.pak<br>Game\Levels\pvp\tdm_hangar_fs\terraintexture.pak<br>Game\Levels\pvp\tdm_airbase_fs\level.pak<br>Game\Levels\pvp\tdm_airbase_fs\terraintexture.pak<br>Game\Levels\pvp\tdm_dock_fs\terraintexture.pak<br>Game\Levels\pvp\tdm_dock_fs\level.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\terraintexture.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\level.pak<br>Game\Levels\pvp\ctf_vault\terraintexture.pak<br>Game\Levels\pvp\ctf_vault\level.pak<br>Game\Levels\hideout_real_wars\level.pak<br>Game\Levels\hideout_real_wars\terraintexture.pak<br>Game\Levels\hideout_secret_service\level.pak<br>Game\Levels\hideout_secret_service\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_oildepot_wc18\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_wc18\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\level.pak<br>Game\Levels\pvp\ctf_vault_fwc\terraintexture.pak<br>Game\Levels\hideout_valkyrie\level.pak<br>Game\Levels\hideout_valkyrie\terraintexture.pak<br>Game\Levels\hideout_heist\terraintexture.pak<br>Game\Levels\hideout_heist\level.pak<br>Game\Levels\hideout_hb_mygames\terraintexture.pak<br>Game\Levels\hideout_hb_mygames\level.pak<br>Game\Levels\bw_hideout\terraintexture.pak<br>Game\Levels\bw_hideout\level.pak<br>Bin64Release\WFDX11Check.exe<br>Bin64Release\GameDX11.exe</td>
+</tr>
+<tr>
+<td>warfacedistrib459.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib460.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\hideout_halloween_2021\level.pak<br>Game\Levels\hideout_halloween_2021\terraintexture.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib461.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib462.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib463.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib464.torrent</td>
+<td class="added">Game\Levels\survival\labyrinth_base\terraintexture.pak<br>Game\Levels\survival\labyrinth_base\level.pak<br>Game\Levels\survival\labyrinth\terraintexture.pak<br>Game\Levels\survival\labyrinth\level.pak<br>Game\Levels\bw_hideout\terraintexture.pak<br>Game\Levels\bw_hideout\level.pak</td>
+<td class="removed">Game\Levels\hideout_secret_service\level.pak<br>Game\Levels\hideout_secret_service\terraintexture.pak<br>Game\Levels\hideout_real_wars\terraintexture.pak<br>Game\Levels\hideout_real_wars\level.pak<br>Game\Levels\hideout_halloween_2021\level.pak<br>Game\Levels\hideout_halloween_2021\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib468.torrent</td>
+<td class="added">Game\Levels\survival\labyrinth\labyrinth\level.pak<br>Game\Levels\survival\labyrinth\labyrinth\terraintexture.pak<br>Game\Levels\survival\labyrinth\labyrinth_base\level.pak<br>Game\Levels\survival\labyrinth\labyrinth_base\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\ffa_mars_hw\level.pak<br>Game\Levels\pvp\ffa_mars_hw\terraintexture.pak<br>Game\Levels\hideout_snowstorm\terraintexture.pak<br>Game\Levels\hideout_snowstorm\level.pak</td>
+<td class="removed">Game\Levels\survival\labyrinth_base\terraintexture.pak<br>Game\Levels\survival\labyrinth_base\level.pak<br>Game\Levels\survival\labyrinth\terraintexture.pak<br>Game\Levels\survival\labyrinth\level.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\terraintexture.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib471.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib475.torrent</td>
+<td class="added">Game\Levels\hideout_royal_guard\level.pak<br>Game\Levels\hideout_royal_guard\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\hideout_snowstorm\level.pak<br>Game\Levels\hideout_snowstorm\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib476.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib477.torrent</td>
+<td class=""></td>
+<td class="removed">Game\Levels\hideout_royal_guard\terraintexture.pak<br>Game\Levels\hideout_royal_guard\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib480.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3_fs\level.pak<br>Game\Levels\pvp\tdm_oildepotv3_fs\terraintexture.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\level.pak<br>Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_fs\level.pak<br>Game\Levels\pvp\tdm_ghost_town_fs\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\hideout_s6_bp\terraintexture.pak<br>Game\Levels\hideout_s6_bp\level.pak<br>Bin64Release\v8_zlib.dll<br>Bin64Release\v8_libplatform.dll</td>
+<td class="removed">Game\Levels\pvp\ffa_mars_hw\level.pak<br>Game\Levels\pvp\ffa_mars_hw\terraintexture.pak<br>Game\Textures_Levels_Test_Levels.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Bin64Release\License.txt<br>Game\Localized\Video\Logo_Crytek.usm<br>Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib481.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib483.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib485.torrent</td>
+<td class="added">Game\Levels\hideout_nuclear\terraintexture.pak<br>Game\Levels\hideout_nuclear\level.pak<br>Game\Levels\survival\nemesis\nemesis_base\terraintexture.pak<br>Game\Levels\survival\nemesis\nemesis_base\level.pak<br>Game\Levels\survival\nemesis\nemesis\terraintexture.pak<br>Game\Levels\survival\nemesis\nemesis\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib487.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_salmon\level.pak<br>Game\Levels\pvp\tdm_salmon\terraintexture.pak<br>Game\Levels\pvp\tdm_tuna\level.pak<br>Game\Levels\pvp\tdm_tuna\terraintexture.pak<br>Bin64Release\License.txt</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib488.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib492.torrent</td>
+<td class="added">Game\Levels\hideout_libertad\terraintexture.pak<br>Game\Levels\hideout_libertad\level.pak</td>
+<td class="removed">Game\Levels\hideout_nuclear\terraintexture.pak<br>Game\Levels\hideout_nuclear\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib493.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib496.torrent</td>
+<td class="added">Game\Objects_Weapons_smg02.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\level.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\terraintexture.pak<br>Game\Levels\pvp\ptb_pyramid_up\level.pak<br>Game\Levels\pvp\ptb_pyramid_up\terraintexture.pak<br>Game\Levels\pvp\ptb_destination_up\terraintexture.pak<br>Game\Levels\pvp\ptb_destination_up\level.pak<br>Game\Levels\pvp\ptb_da_gas\level.pak<br>Game\Levels\pvp\ptb_da_gas\terraintexture.pak<br>Game\Levels\pvp\ptb_bridges_winter\terraintexture.pak<br>Game\Levels\pvp\ptb_bridges_winter\level.pak<br>Game\Levels\pvp\ptb_D17_up\level.pak<br>Game\Levels\pvp\ptb_D17_up\terraintexture.pak<br>Game\Levels\hideout_engineer\terraintexture.pak<br>Game\Levels\hideout_engineer\level.pak<br>Bin64Release\FmodEx.dll<br>Bin64Release\FmodEventNet.dll<br>Bin64Release\FmodEvent.dll</td>
+<td class="removed">Game\Levels\hideout_s6_bp\terraintexture.pak<br>Game\Levels\hideout_libertad\level.pak<br>Game\Levels\hideout_libertad\terraintexture.pak<br>Game\Levels\hideout_s6_bp\level.pak<br>Bin64Release\fmodex64.dll<br>Bin64Release\fmod_event_net64.dll<br>Bin64Release\fmod_event64.dll<br>Bin64Release\License.txt</td>
+</tr>
+<tr>
+<td>warfacedistrib499.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib501.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib502.torrent</td>
+<td class="added">Bin64Release\License.txt</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib503.torrent</td>
+<td class=""></td>
+<td class="removed">Bin64Release\License.txt</td>
+</tr>
+<tr>
+<td>warfacedistrib504.torrent</td>
+<td class="added">Bin64Release\License.txt</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib505.torrent</td>
+<td class="added">Game\Levels\pvp\ds_pyramid_up\terraintexture.pak<br>Game\Levels\pvp\ds_pyramid_up\level.pak<br>Game\Levels\pvp\ds_destination_up\terraintexture.pak<br>Game\Levels\pvp\ds_destination_up\level.pak<br>Game\Levels\pvp\ds_bridges_winter\terraintexture.pak<br>Game\Levels\pvp\ds_bridges_winter\level.pak<br>Game\Levels\pvp\ds_D17_up\terraintexture.pak<br>Game\Levels\pvp\ds_D17_up\level.pak</td>
+<td class="removed">Bin64Release\License.txt</td>
+</tr>
+<tr>
+<td>warfacedistrib506.torrent</td>
+<td class="added">Game\Objects_Characters_Other02.pak<br>Game\Levels\pvp\ffa_walnut\terraintexture.pak<br>Game\Levels\pvp\ffa_walnut\level.pak<br>Game\Levels\pvp\ffa_motel_fs\terraintexture.pak<br>Game\Levels\pvp\ffa_motel_fs\level.pak<br>Game\Levels\hideout_endor\level.pak<br>Game\Levels\hideout_endor\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\ctf_ruins_2\level.pak<br>Game\Levels\pvp\lms_mojave\terraintexture.pak<br>Game\Levels\pvp\lms_pripyat\terraintexture.pak<br>Game\Levels\pvp\lms_pripyat\level.pak<br>Game\Levels\pvp\lms_mojave\level.pak<br>Game\Levels\pvp\dst_mars\level.pak<br>Game\Levels\pvp\dst_mars\terraintexture.pak<br>Game\Levels\pvp\dst_lighthouse\level.pak<br>Game\Levels\pvp\dst_lighthouse\terraintexture.pak<br>Game\Levels\pvp\dst_afghan\terraintexture.pak<br>Game\Levels\pvp\dst_afghan\level.pak<br>Game\Levels\pvp\dmn_sirius\terraintexture.pak<br>Game\Levels\pvp\dmn_subzero\terraintexture.pak<br>Game\Levels\pvp\dmn_subzero\level.pak<br>Game\Levels\pvp\dmn_sirius\level.pak<br>Game\Levels\pvp\dmn_armageddon\terraintexture.pak<br>Game\Levels\pvp\dmn_armageddon\level.pak<br>Game\Levels\pvp\ctf_ruins_2\terraintexture.pak<br>Game\Levels\hideout_engineer\terraintexture.pak<br>Game\Levels\hideout_engineer\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib507.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib508.torrent</td>
+<td class="added">Game\Sounds_Weapons.pak</td>
+<td class="removed">Bin64Release\vcruntime140.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib509.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib510.torrent</td>
+<td class="added">Game\Levels\pvp\ffa_motel_hw\level.pak<br>Game\Levels\pvp\ffa_motel_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\ptb_district\level.pak<br>Game\Levels\pvp\ptb_district\terraintexture.pak<br>Game\Levels\pvp\ffa_widestreet_hw\terraintexture.pak<br>Game\Levels\pvp\ffa_widestreet_hw\level.pak<br>Game\Levels\hideout_halloween_2022\level.pak<br>Game\Levels\hideout_halloween_2022\terraintexture.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib511.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib512.torrent</td>
+<td class="added">Game\Levels\survival\endor\endor_base\terraintexture.pak<br>Game\Levels\survival\endor\endor_base\level.pak<br>Game\Levels\survival\endor\endor_act1\terraintexture.pak<br>Game\Levels\survival\endor\endor_act1\level.pak<br>Game\Levels\pvp\tdm_oildepot_e16\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_e16\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib513.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib514.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib515.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib516.torrent</td>
+<td class="added">Game\Objects_Weapons_ar02.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\hideout_xmas_2022\level.pak<br>Game\Levels\hideout_xmas_2022\terraintexture.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_swarm\terraintexture.pak<br>Game\Levels\pvp\tdm_swarm\level.pak<br>Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_sirius\terraintexture.pak<br>Game\Levels\pvp\tdm_sirius\level.pak<br>Game\Levels\pvp\tdm_shuttle\terraintexture.pak<br>Game\Levels\pvp\tdm_shuttle\level.pak<br>Game\Levels\pvp\tdm_residential\terraintexture.pak<br>Game\Levels\pvp\tdm_residential\level.pak<br>Game\Levels\pvp\tdm_oildepotv3_fs\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepotv3_fs\level.pak<br>Game\Levels\pvp\tdm_motel\terraintexture.pak<br>Game\Levels\pvp\tdm_motel\level.pak<br>Game\Levels\pvp\tdm_ghost_town\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\pvp\tdm_dock\terraintexture.pak<br>Game\Levels\pvp\tdm_dock\level.pak<br>Game\Levels\pvp\tdm_crossriver\terraintexture.pak<br>Game\Levels\pvp\tdm_crossriver\level.pak<br>Game\Levels\pvp\tdm_codenameD18\terraintexture.pak<br>Game\Levels\pvp\tdm_codenameD18\level.pak<br>Game\Levels\pvp\tdm_aul\level.pak<br>Game\Levels\pvp\tdm_aul\terraintexture.pak<br>Game\Levels\pvp\tdm_airbase\terraintexture.pak<br>Game\Levels\pvp\tdm_airbase\level.pak<br>Game\Levels\pvp\tbs_heist\terraintexture.pak<br>Game\Levels\pvp\tbs_heist\level.pak<br>Game\Levels\pvp\tbs_deepwater\terraintexture.pak<br>Game\Levels\pvp\stm_wharf\level.pak<br>Game\Levels\pvp\stm_wharf\terraintexture.pak<br>Game\Levels\pvp\tbs_deepwater\level.pak<br>Game\Levels\pvp\hnt_night_motel\terraintexture.pak<br>Game\Levels\pvp\hnt_night_motel\level.pak<br>Game\Levels\pvp\ffa_district_up\terraintexture.pak<br>Game\Levels\pvp\ffa_district_up\level.pak<br>Game\Levels\pvp\ffa_afghan_up\terraintexture.pak<br>Game\Levels\pvp\ffa_afghan_up\level.pak<br>Game\Levels\pvp\ctf_quarry\terraintexture.pak<br>Game\Levels\pvp\ctf_quarry\level.pak<br>Game\Levels\pvp\ctf_breach\terraintexture.pak<br>Game\Levels\pvp\ctf_breach\level.pak<br>Game\Levels\hideout_halloween_2022\terraintexture.pak<br>Game\Levels\hideout_halloween_2022\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib517.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib518.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib519.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib520.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib521.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib522.torrent</td>
+<td class="added">Game\Levels\pvp\ctf_breach\terraintexture.pak<br>Game\Levels\pvp\ctf_breach\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib523.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib524.torrent</td>
+<td class=""></td>
+<td class="removed">VC_redist.x64.exe</td>
+</tr>
+<tr>
+<td>warfacedistrib525.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib526.torrent</td>
+<td class="added">Game\Levels\survival\endor\endor_final_base\terraintexture.pak<br>Game\Levels\survival\endor\endor_final_base\level.pak<br>Game\Levels\survival\endor\endor_act2\level.pak<br>Game\Levels\survival\endor\endor_act2\terraintexture.pak<br>Game\Levels\pvp\ptb_banana\terraintexture.pak<br>Game\Levels\pvp\ptb_banana\level.pak<br>Bin64Release\CrashSender1403.exe<br>Bin64Release\CrashRpt1403.dll</td>
+<td class="removed">Game\Sounds_Sr.pak<br>Game\Sounds_Smg.pak<br>Game\Sounds_Shg.pak<br>Bin64Release\CrashRpt1402.dll<br>Game\Sounds_Ar.pak<br>Game\Localized\Video\Logo_MyGames.usm<br>Game\Levels\pvp\ffa_motel\terraintexture.pak<br>Game\Levels\pvp\ffa_motel\level.pak<br>Bin64Release\CrashSender1402.exe</td>
+</tr>
+<tr>
+<td>warfacedistrib527.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib528.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib529.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib530.torrent</td>
+<td class="added">Game\Levels\pvp\ptb_destination_hb\level.pak<br>Game\Levels\pvp\ptb_destination_hb\terraintexture.pak<br>Game\Levels\hideout_hb\terraintexture.pak<br>Game\Levels\hideout_hb\level.pak</td>
+<td class="removed">Game\Levels\hideout_xmas_2022\level.pak<br>Game\Levels\hideout_xmas_2022\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib531.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib532.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib533.torrent</td>
+<td class="added">Game\Localized\CrashRpt\crashrpt_lang_TH.ini<br>Game\Localized\CrashRpt\crashrpt_lang_PT.ini<br>Game\Localized\CrashRpt\crashrpt_lang_KO.ini<br>Game\Localized\CrashRpt\crashrpt_lang_JA.ini<br>Game\Localized\CrashRpt\crashrpt_lang_ES.ini<br>Game\Localized\CrashRpt\crashrpt_lang_CN.ini<br>Game\Levels\pvp\dst_mars\terraintexture.pak<br>Game\Levels\pvp\dst_mars\level.pak<br>Game\Levels\pvp\dst_lighthouse\level.pak<br>Game\Levels\pvp\dst_lighthouse\terraintexture.pak<br>Game\Levels\pvp\dmn_sirius\level.pak<br>Game\Levels\pvp\dmn_sirius\terraintexture.pak<br>Game\Levels\pvp\dmn_armageddon\terraintexture.pak<br>Game\Levels\pvp\dmn_armageddon\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib534.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib535.torrent</td>
+<td class="added">Bin64Release\dbghelp.dll</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib536.torrent</td>
+<td class=""></td>
+<td class="removed">Bin64Release\dbghelp.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib537.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib538.torrent</td>
+<td class="added">Game\Objects_Other_I02.pak<br>Game\Objects_Other_I.pak<br>Game\Levels\pvp\ctf_ruins_2\level.pak<br>Game\Levels\pvp\ctf_ruins_2\terraintexture.pak<br>Game\Levels\hideout_jungle\terraintexture.pak<br>Game\Levels\hideout_jungle\level.pak</td>
+<td class="removed">Game\Levels\hideout_hb\terraintexture.pak<br>Game\Levels\hideout_hb\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib539.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib540.torrent</td>
+<td class="added">Game\Levels\pvp\ptb_pineapple\terraintexture.pak<br>Game\Levels\pvp\ptb_pineapple\level.pak<br>Bin64Release\vivoxsdk.dll</td>
+<td class="removed">Bin64Release\vivoxsdk_x64.dll<br>Bin64Release\sonus.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib541.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib542.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib543.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib544.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib545.torrent</td>
+<td class="added">Game\Textures_mvt.pak<br>Game\Objects_mvt.pak<br>Game\Objects_Weapons_mvt.pak<br>Game\Levels\pvp\tdm_chandler\terraintexture.pak<br>Game\Levels\pvp\tdm_chandler\level.pak<br>Game\Levels\hideout_scandic\terraintexture.pak<br>Game\Levels\hideout_scandic\level.pak<br>Game\GameData_mvt.pak</td>
+<td class="removed">Game\Objects_Other_I02.pak<br>Game\Levels\survival\survival_base\terraintexture.pak<br>Game\Levels\survival\survival_base\level.pak<br>Game\Levels\survival\snow_fortress_base\terraintexture.pak<br>Game\Levels\survival\snow_fortress_base\level.pak<br>Game\Levels\survival\snow_fortress_act3_boss\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act3_boss\level.pak<br>Game\Levels\survival\snow_fortress_act3\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act3\level.pak<br>Game\Levels\survival\snow_fortress_act2\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act2\level.pak<br>Game\Levels\survival\snow_fortress_act1\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act1\level.pak<br>Game\Levels\survival\raid\raid_base\terraintexture.pak<br>Game\Levels\survival\raid\raid_base\level.pak<br>Game\Levels\survival\raid\raid\terraintexture.pak<br>Game\Levels\survival\raid\raid\level.pak<br>Game\Levels\survival\nemesis\nemesis_base\terraintexture.pak<br>Game\Levels\survival\nemesis\nemesis_base\level.pak<br>Game\Levels\survival\nemesis\nemesis\terraintexture.pak<br>Game\Levels\survival\mars\mars_base\level.pak<br>Game\Levels\survival\nemesis\nemesis\level.pak<br>Game\Levels\survival\mars\mars_act4\terraintexture.pak<br>Game\Levels\survival\mars\mars_act4\level.pak<br>Game\Levels\survival\mars\mars_act3\terraintexture.pak<br>Game\Levels\survival\mars\mars_act3\level.pak<br>Game\Levels\survival\mars\mars_act2\terraintexture.pak<br>Game\Levels\survival\mars\mars_act2\level.pak<br>Game\Levels\survival\mars\mars_act1\level.pak<br>Game\Levels\survival\mars\mars_act1\terraintexture.pak<br>Game\Levels\survival\labyrinth\labyrinth_base\level.pak<br>Game\Levels\survival\labyrinth\labyrinth_base\terraintexture.pak<br>Game\Levels\survival\labyrinth\labyrinth\terraintexture.pak<br>Game\Levels\survival\labyrinth\labyrinth\level.pak<br>Game\Levels\survival\heist\heist_roof\terraintexture.pak<br>Game\Levels\survival\heist\heist_roof\level.pak<br>Game\Levels\survival\heist\heist_base\terraintexture.pak<br>Game\Levels\survival\heist\heist_base\level.pak<br>Game\Levels\survival\heist\heist\terraintexture.pak<br>Game\Levels\survival\heist\heist\level.pak<br>Game\Levels\survival\endor\endor_final_base\terraintexture.pak<br>Game\Levels\survival\endor\endor_final_base\level.pak<br>Game\Levels\survival\endor\endor_base\terraintexture.pak<br>Game\Levels\survival\endor\endor_base\level.pak<br>Game\Levels\survival\endor\endor_act2\terraintexture.pak<br>Game\Levels\survival\endor\endor_act2\level.pak<br>Game\Levels\survival\endor\endor_act1\terraintexture.pak<br>Game\Levels\survival\endor\endor_act1\level.pak<br>Game\Levels\survival\china_survival\terraintexture.pak<br>Game\Levels\survival\china_survival\level.pak<br>Game\Levels\survival\arachnid\arachnid_base\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_base\level.pak<br>Game\Levels\survival\arachnid\arachnid_act4\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act4\level.pak<br>Game\Levels\survival\arachnid\arachnid_act3\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act3\level.pak<br>Game\Levels\survival\arachnid\arachnid_act2\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act2\level.pak<br>Game\Levels\survival\arachnid\arachnid_act1\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act1\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\terraintexture.pak<br>Game\Levels\pvp\tbs_hawkrock_fs\level.pak<br>Game\Levels\pvp\ptb_district_up\terraintexture.pak<br>Game\Levels\pvp\ptb_district_up\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\pvp\dst_mars\terraintexture.pak<br>Game\Levels\pvp\dst_mars\level.pak<br>Game\Levels\pvp\dst_lighthouse\terraintexture.pak<br>Game\Levels\pvp\dst_lighthouse\level.pak<br>Game\Levels\pvp\dmn_sirius\terraintexture.pak<br>Game\Levels\pvp\dmn_sirius\level.pak<br>Game\Levels\pvp\dmn_armageddon\terraintexture.pak<br>Game\Levels\pvp\dmn_armageddon\level.pak<br>Game\Levels\pvp\ctf_breach\terraintexture.pak<br>Game\Levels\pvp\ctf_breach\level.pak<br>Game\Levels\hideout_endor\level.pak<br>Game\Levels\hideout_endor\terraintexture.pak<br>Game\Levels\favela\favela_path08\terraintexture.pak<br>Game\Levels\favela\favela_path08\level.pak<br>Game\Levels\favela\favela_path07\level.pak<br>Game\Levels\favela\favela_path07\terraintexture.pak<br>Game\Levels\favela\favela_path06\terraintexture.pak<br>Game\Levels\favela\favela_path06\level.pak<br>Game\Levels\favela\favela_path05\terraintexture.pak<br>Game\Levels\favela\favela_path05\level.pak<br>Game\Levels\favela\favela_path04\terraintexture.pak<br>Game\Levels\favela\favela_path04\level.pak<br>Game\Levels\favela\favela_path03\terraintexture.pak<br>Game\Levels\favela\favela_path03\level.pak<br>Game\Levels\favela\favela_path02\terraintexture.pak<br>Game\Levels\favela\favela_path02\level.pak<br>Game\Levels\favela\favela_path01\terraintexture.pak<br>Game\Levels\favela\favela_path01\level.pak<br>Game\Levels\favela\favela_junction05\terraintexture.pak<br>Game\Levels\favela\favela_junction05\level.pak<br>Game\Levels\favela\favela_junction04\terraintexture.pak<br>Game\Levels\favela\favela_junction04\level.pak<br>Game\Levels\favela\favela_junction03\terraintexture.pak<br>Game\Levels\favela\favela_junction03\level.pak<br>Game\Levels\favela\favela_junction02\terraintexture.pak<br>Game\Levels\favela\favela_junction02\level.pak<br>Game\Levels\favela\favela_junction01\terraintexture.pak<br>Game\Levels\favela\favela_junction01\level.pak<br>Game\Levels\favela\favela_base\terraintexture.pak<br>Game\Levels\favela\favela_base\level.pak<br>Game\Levels\china\china_path07\terraintexture.pak<br>Game\Levels\china\china_path07\level.pak<br>Game\Levels\china\china_path06\terraintexture.pak<br>Game\Levels\china\china_path06\level.pak<br>Game\Levels\china\china_path05\terraintexture.pak<br>Game\Levels\china\china_path05\level.pak<br>Game\Levels\china\china_path04\terraintexture.pak<br>Game\Levels\china\china_path04\level.pak<br>Game\Levels\china\china_path03\terraintexture.pak<br>Game\Levels\china\china_path03\level.pak<br>Game\Levels\china\china_path02\terraintexture.pak<br>Game\Levels\china\china_path02\level.pak<br>Game\Levels\china\china_path01\terraintexture.pak<br>Game\Levels\china\china_path01\level.pak<br>Game\Levels\china\china_junction05\terraintexture.pak<br>Game\Levels\china\china_junction05\level.pak<br>Game\Levels\china\china_junction04\terraintexture.pak<br>Game\Levels\china\china_junction04\level.pak<br>Game\Levels\china\china_junction03\terraintexture.pak<br>Game\Levels\china\china_junction03\level.pak<br>Game\Levels\china\china_junction02\terraintexture.pak<br>Game\Levels\china\china_junction02\level.pak<br>Game\Levels\china\china_junction01\terraintexture.pak<br>Game\Levels\china\china_junction01\level.pak<br>Game\Levels\china\china_base\terraintexture.pak<br>Game\Levels\china\china_base\level.pak<br>Game\Levels\arena\coliseum_boss\terraintexture.pak<br>Game\Levels\arena\coliseum_boss\level.pak<br>Game\Levels\arena\coliseum_base\terraintexture.pak<br>Game\Levels\arena\coliseum_base\level.pak<br>Game\Levels\arena\coliseum\terraintexture.pak<br>Game\Levels\arena\coliseum\level.pak<br>Game\Levels\africa\africa_path08\terraintexture.pak<br>Game\Levels\africa\africa_path08\level.pak<br>Game\Levels\africa\africa_path06\terraintexture.pak<br>Game\Levels\africa\africa_path06\level.pak<br>Game\Levels\africa\africa_path05\terraintexture.pak<br>Game\Levels\africa\africa_path05\level.pak<br>Game\Levels\africa\africa_path03\terraintexture.pak<br>Game\Levels\africa\africa_path03\level.pak<br>Game\Levels\africa\africa_path01\terraintexture.pak<br>Game\Levels\africa\africa_path01\level.pak<br>Game\Levels\africa\africa_junction04\terraintexture.pak<br>Game\Levels\africa\africa_junction04\level.pak<br>Game\Levels\africa\africa_junction01\terraintexture.pak<br>Game\Levels\africa\africa_junction01\level.pak<br>Bin64Release\symsrv.dll<br>Bin64Release\nvToolsExt32_1.dll<br>Bin64Release\d3dx11_42.dll<br>Bin64Release\OptickCore.dll<br>Bin64Release\D3DX9_42.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib546.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib547.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_streetwars_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_streetwars_hw\level.pak<br>Game\Levels\pvp\tdm_farm_hw\terraintexture.pak<br>Game\Levels\pvp\tdm_farm_hw\level.pak<br>Game\Levels\hideout_halloween_2023\terraintexture.pak<br>Game\Levels\hideout_halloween_2023\level.pak<br>Game\Animations_mvt.pak<br>Game\Sounds_mvt.pak</td>
+<td class="removed">Game\Levels\hideout_jungle\terraintexture.pak<br>Game\Levels\hideout_jungle\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib548.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib549.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib550.torrent</td>
+<td class="added">Game\Objects_Other_I02.pak<br>Game\Objects_Characters_Other_mvt.pak<br>Game\Levels\survival\midgard\midgard_base\terraintexture.pak<br>Game\Levels\survival\midgard\midgard_base\level.pak<br>Game\Levels\survival\midgard\midgard\terraintexture.pak<br>Game\Levels\survival\midgard\midgard\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib551.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib552.torrent</td>
+<td class="added">Game\Objects_Weapons02.pak<br>Game\Levels\survival\arachnid\arachnid_base\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_base\level.pak<br>Game\Levels\survival\arachnid\arachnid_act4\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act4\level.pak<br>Game\Levels\survival\arachnid\arachnid_act3\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act3\level.pak<br>Game\Levels\survival\arachnid\arachnid_act2\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act2\level.pak<br>Game\Levels\survival\arachnid\arachnid_act1\terraintexture.pak<br>Game\Levels\survival\arachnid\arachnid_act1\level.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_xmas\level.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\terraintexture.pak<br>Game\Levels\pvp\tdm_ghost_town_xmas\level.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\terraintexture.pak<br>Game\Levels\pvp\tbs_waterfalling_xmas\level.pak<br>Game\Levels\pvp\tbs_modo\terraintexture.pak<br>Game\Levels\pvp\tbs_modo\level.pak<br>Game\Levels\pvp\ptb_trailerpark_xmas\terraintexture.pak<br>Game\Levels\pvp\ptb_trailerpark_xmas\level.pak<br>Game\Levels\pvp\hnt_winter_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_winter_xmas\level.pak<br>Game\Levels\mvt\hideout_mvt_xmas_2024\terraintexture.pak<br>Game\Levels\mvt\hideout_mvt_xmas_2024\level.pak<br>Game\Levels\hideout_scandic_xmas_2024\terraintexture.pak<br>Game\Levels\hideout_scandic_xmas_2024\level.pak<br>Game\Levels\china\china_path07\terraintexture.pak<br>Game\Levels\china\china_path07\level.pak<br>Game\Levels\china\china_path06\terraintexture.pak<br>Game\Levels\china\china_path06\level.pak<br>Game\Levels\china\china_path05\terraintexture.pak<br>Game\Levels\china\china_path05\level.pak<br>Game\Levels\china\china_path04\terraintexture.pak<br>Game\Levels\china\china_path04\level.pak<br>Game\Levels\china\china_path03\terraintexture.pak<br>Game\Levels\china\china_path03\level.pak<br>Game\Levels\china\china_path02\terraintexture.pak<br>Game\Levels\china\china_path02\level.pak<br>Game\Levels\china\china_path01\terraintexture.pak<br>Game\Levels\china\china_path01\level.pak<br>Game\Levels\china\china_junction05\terraintexture.pak<br>Game\Levels\china\china_junction05\level.pak<br>Game\Levels\china\china_junction04\terraintexture.pak<br>Game\Levels\china\china_junction04\level.pak<br>Game\Levels\china\china_junction03\terraintexture.pak<br>Game\Levels\china\china_junction03\level.pak<br>Game\Levels\china\china_junction02\terraintexture.pak<br>Game\Levels\china\china_junction02\level.pak<br>Game\Levels\china\china_junction01\terraintexture.pak<br>Game\Levels\china\china_junction01\level.pak<br>Game\Levels\china\china_base\terraintexture.pak<br>Game\Levels\china\china_base\level.pak<br>Game\Levels\arena\coliseum_boss\terraintexture.pak<br>Game\Levels\arena\coliseum_boss\level.pak<br>Game\Levels\arena\coliseum_base\terraintexture.pak<br>Game\Levels\arena\coliseum_base\level.pak<br>Game\Levels\arena\coliseum\terraintexture.pak<br>Game\Levels\arena\coliseum\level.pak</td>
+<td class="removed">Game\Levels\hideout_halloween_2023\terraintexture.pak<br>Game\Levels\hideout_scandic\level.pak<br>Game\Levels\hideout_scandic\terraintexture.pak<br>Game\Levels\hideout_halloween_2023\level.pak<br>Bin64Release\anzu.dll</td>
+</tr>
+<tr>
+<td>warfacedistrib553.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib554.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib555.torrent</td>
+<td class=""></td>
+<td class="removed">Game\Levels\pvp\ptb_destination_hb\terraintexture.pak<br>Game\Levels\pvp\ptb_destination_hb\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib556.torrent</td>
+<td class="added">Game\Localized\Video\Logo_Publisher1.usm</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib557.torrent</td>
+<td class="added">Game\Levels\survival\raid\raid_base\level.pak<br>Game\Levels\survival\raid\raid_base\terraintexture.pak<br>Game\Levels\survival\raid\raid\terraintexture.pak<br>Game\Levels\survival\raid\raid\level.pak<br>Game\Levels\survival\heist\heist_roof\level.pak<br>Game\Levels\survival\heist\heist_roof\terraintexture.pak<br>Game\Levels\survival\heist\heist_base\level.pak<br>Game\Levels\survival\heist\heist_base\terraintexture.pak<br>Game\Levels\survival\heist\heist\terraintexture.pak<br>Game\Levels\survival\heist\heist\level.pak<br>Game\Levels\pvp\ffa_overpass\terraintexture.pak<br>Game\Levels\pvp\ffa_overpass\level.pak<br>Game\Levels\mvt\hideout_mvt_movie\terraintexture.pak<br>Game\Levels\mvt\hideout_mvt_movie\level.pak<br>Game\Levels\hideout_lab\terraintexture.pak<br>Game\Levels\hideout_lab\level.pak<br>Game\Levels\favela\favela_path05\terraintexture.pak<br>Game\Levels\favela\favela_path01\level.pak<br>Game\Levels\favela\favela_path01\terraintexture.pak<br>Game\Levels\favela\favela_path02\level.pak<br>Game\Levels\favela\favela_path02\terraintexture.pak<br>Game\Levels\favela\favela_path03\level.pak<br>Game\Levels\favela\favela_path08\terraintexture.pak<br>Game\Levels\favela\favela_path08\level.pak<br>Game\Levels\favela\favela_path07\terraintexture.pak<br>Game\Levels\favela\favela_path07\level.pak<br>Game\Levels\favela\favela_path06\terraintexture.pak<br>Game\Levels\favela\favela_path05\level.pak<br>Game\Levels\favela\favela_path04\terraintexture.pak<br>Game\Levels\favela\favela_path06\level.pak<br>Game\Levels\favela\favela_path04\level.pak<br>Game\Levels\favela\favela_path03\terraintexture.pak<br>Game\Levels\favela\favela_junction05\terraintexture.pak<br>Game\Levels\favela\favela_junction04\terraintexture.pak<br>Game\Levels\favela\favela_junction04\level.pak<br>Game\Levels\favela\favela_junction03\terraintexture.pak<br>Game\Levels\favela\favela_junction03\level.pak<br>Game\Levels\favela\favela_junction05\level.pak<br>Game\Levels\favela\favela_junction02\terraintexture.pak<br>Game\Levels\favela\favela_junction02\level.pak<br>Game\Levels\favela\favela_junction01\terraintexture.pak<br>Game\Levels\favela\favela_junction01\level.pak<br>Game\Levels\favela\favela_base\terraintexture.pak<br>Game\Levels\favela\favela_base\level.pak<br>Game\Levels\africa\africa_path08\level.pak<br>Game\Levels\africa\africa_path08\terraintexture.pak<br>Game\Levels\africa\africa_path06\terraintexture.pak<br>Game\Levels\africa\africa_path06\level.pak<br>Game\Levels\africa\africa_path03\terraintexture.pak<br>Game\Levels\africa\africa_path05\level.pak<br>Game\Levels\africa\africa_path05\terraintexture.pak<br>Game\Levels\africa\africa_path01\level.pak<br>Game\Levels\africa\africa_path01\terraintexture.pak<br>Game\Levels\africa\africa_path03\level.pak<br>Game\Levels\africa\africa_junction04\terraintexture.pak<br>Game\Levels\africa\africa_junction04\level.pak<br>Game\Levels\africa\africa_junction01\terraintexture.pak<br>Game\Levels\africa\africa_junction01\level.pak<br>Game\Sounds_Smg.pak<br>Game\Objects_Weapons_pt02.pak</td>
+<td class="removed">Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Game\Levels\pvp\hnt_pripyat_hw\terraintexture.pak<br>Game\Levels\mvt\hideout_mvt_xmas_2024\level.pak<br>Game\Levels\mvt\hideout_mvt_xmas_2024\terraintexture.pak<br>Game\Levels\hideout_scandic_xmas_2024\terraintexture.pak<br>Game\Levels\hideout_scandic_xmas_2024\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib558.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_oildepot_circus\terraintexture.pak<br>Game\Levels\pvp\tdm_oildepot_circus\level.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib559.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib560.torrent</td>
+<td class="added">Game\Levels\hideout_hb_2024\level.pak<br>Game\Levels\hideout_hb_2024\terraintexture.pak<br>Game\Levels\pvp\ptb_D17_hb\level.pak<br>Game\Levels\pvp\ptb_D17_hb\terraintexture.pak<br>Game\Levels\pvp\ptb_destination_hb\level.pak<br>Game\Levels\pvp\ptb_destination_hb\terraintexture.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib561.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib562.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib563.torrent</td>
+<td class="added">Game\Levels\pvp\ffa_bagheera\level.pak<br>Game\Levels\pvp\ffa_bagheera\terraintexture.pak<br>Game\Levels\hideout_bagheera\level.pak<br>Game\Levels\hideout_bagheera\terraintexture.pak</td>
+<td class="removed">Game\Levels\mvt\hideout_mvt_movie\level.pak<br>Game\Levels\mvt\hideout_mvt_movie\terraintexture.pak<br>Game\Levels\hideout_hb_2024\level.pak<br>Game\Levels\hideout_hb_2024\terraintexture.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib564.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib565.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib566.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib567.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib568.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib569.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib570.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib571.torrent</td>
+<td class="added">Game\Levels\pvp\tdm_hangar_up_xmas\terraintexture.pak<br>Bin64Release\libgmessl-1_1-x64.dll<br>Bin64Release\libgmesoundtouch.dll<br>Bin64Release\libgmeogg.dll<br>Bin64Release\libgmelamemp3.dll<br>Bin64Release\libgmefaad2.dll<br>Bin64Release\libgmefdkaac.dll<br>Bin64Release\gmesdk.dll<br>Bin64Release\libgmecrypto-1_1-x64.dll<br>Game\Levels\survival\survival_base\level.pak<br>Game\Levels\survival\survival_base\terraintexture.pak<br>Game\Levels\survival\mars\mars_base\level.pak<br>Game\Levels\survival\mars\mars_act4\terraintexture.pak<br>Game\Levels\survival\mars\mars_act4\level.pak<br>Game\Levels\survival\mars\mars_act3\level.pak<br>Game\Levels\survival\mars\mars_act3\terraintexture.pak<br>Game\Levels\survival\mars\mars_act2\terraintexture.pak<br>Game\Levels\survival\mars\mars_act2\level.pak<br>Game\Levels\survival\mars\mars_act1\terraintexture.pak<br>Game\Levels\survival\mars\mars_act1\level.pak<br>Game\Levels\survival\china_survival\terraintexture.pak<br>Game\Levels\survival\china_survival\level.pak<br>Game\Levels\pvp\tdm_brain\level.pak<br>Game\Levels\pvp\tdm_brain\terraintexture.pak<br>Game\Levels\pvp\hnt_pripyat_hw\terraintexture.pak<br>Game\Levels\hideout_s16\level.pak<br>Game\Levels\hideout_s16\terraintexture.pak</td>
+<td class="removed">Game\Levels\hideout_lab\terraintexture.pak<br>Game\Levels\hideout_lab\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib572.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib573.torrent</td>
+<td class="added">Game\Levels\pvp\ffa_bagheera_hw\terraintexture.pak<br>Game\Levels\pvp\ffa_bagheera_hw\level.pak<br>Game\Levels\hideout_halloween_2024\level.pak<br>Game\Levels\hideout_halloween_2024\terraintexture.pak</td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib574.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib575.torrent</td>
+<td class="added">Game\Textures_Other02.pak<br>Game\Levels\survival\snow_fortress_base\level.pak<br>Game\Levels\survival\snow_fortress_base\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act3_boss\level.pak<br>Game\Levels\survival\snow_fortress_act3_boss\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act2\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act3\level.pak<br>Game\Levels\survival\snow_fortress_act3\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act1\terraintexture.pak<br>Game\Levels\survival\snow_fortress_act2\level.pak<br>Game\Levels\survival\snow_fortress_act1\level.pak<br>Game\Levels\survival\asgard\asgard_base\level.pak<br>Game\Levels\survival\asgard\asgard\terraintexture.pak<br>Game\Levels\survival\asgard\asgard\level.pak<br>Game\Levels\hideout_city\terraintexture.pak<br>Game\Levels\hideout_city\level.pak</td>
+<td class="removed">Game\Localized\Video\RandomBox_Shaker5.usm<br>Game\Localized\Video\RandomBox_Shaker4.usm<br>Game\Localized\Video\RandomBox_Shaker3.usm<br>Game\Localized\Video\RandomBox_Shaker2.usm<br>Game\Localized\Video\RandomBox_Shaker1.usm<br>Game\Levels\hideout_bagheera\terraintexture.pak<br>Game\Levels\hideout_bagheera\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib576.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib577.torrent</td>
+<td class="added">Game\Levels\initiation\level.pak<br>Game\Levels\initiation\terraintexture.pak<br>Game\Levels\tutorial\advanced\level.pak<br>Game\Levels\tutorial\advanced\terraintexture.pak<br>Game\Levels\tutorial\engineer\level.pak<br>Game\Levels\tutorial\engineer\terraintexture.pak<br>Game\Levels\tutorial\medic\level.pak<br>Game\Levels\tutorial\medic\terraintexture.pak<br>Game\Levels\tutorial\soldier\level.pak<br>Game\Levels\tutorial\soldier\terraintexture.pak<br>Game\Levels\hideout_scandic_xmas_2025\level.pak<br>Game\Levels\hideout_scandic_xmas_2025\terraintexture.pak<br>Game\Levels\pvp\ptb_factory_xmas\level.pak<br>Game\Levels\pvp\ptb_factory_xmas\terraintexture.pak</td>
+<td class="removed">Game\Levels\hideout_s16\terraintexture.pak<br>Game\Levels\hideout_s16\level.pak<br>Game\Levels\hideout_halloween_2024\terraintexture.pak<br>Game\Levels\hideout_halloween_2024\level.pak<br>Game\Levels\Tutorial\soldier\terraintexture.pak<br>Game\Levels\Tutorial\soldier\level.pak<br>Game\Levels\Tutorial\medic\terraintexture.pak<br>Game\Levels\Tutorial\medic\level.pak<br>Game\Levels\Tutorial\engineer\terraintexture.pak<br>Game\Levels\Tutorial\engineer\level.pak<br>Game\Levels\Tutorial\advanced\terraintexture.pak<br>Game\Levels\Tutorial\advanced\level.pak<br>Game\Levels\Initiation\terraintexture.pak<br>Game\Levels\Initiation\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib578.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib579.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+<tr>
+<td>warfacedistrib580.torrent</td>
+<td class="added">Game\Objects_Weapons_sr03.pak<br>Game\Objects_Weapons_shg03.pak<br>Game\Levels\survival\nemesis\nemesis_base\terraintexture.pak<br>Game\Levels\survival\nemesis\nemesis_base\level.pak<br>Game\Levels\survival\nemesis\nemesis\terraintexture.pak<br>Game\Levels\survival\endor\endor_final_base\terraintexture.pak<br>Game\Levels\survival\endor\endor_base\terraintexture.pak<br>Game\Levels\survival\endor\endor_final_base\level.pak<br>Game\Levels\survival\endor\endor_base\level.pak<br>Game\Levels\survival\endor\endor_act2\terraintexture.pak<br>Game\Levels\survival\endor\endor_act2\level.pak<br>Game\Levels\survival\endor\endor_act1\level.pak<br>Game\Levels\survival\endor\endor_act1\terraintexture.pak<br>Game\Levels\pvp\ptb_mimir\terraintexture.pak<br>Game\Levels\pvp\ptb_mimir\level.pak<br>Game\Levels\hideout_mimir\level.pak<br>Bin64Release\vcruntime140_1.dll<br>Bin64Release\vcruntime140_threads.dll<br>Bin64Release\vcruntime140.dll<br>Bin64Release\vccorlib140.dll<br>Bin64Release\msvcp140_codecvt_ids.dll<br>Bin64Release\msvcp140_2.dll<br>Bin64Release\msvcp140_atomic_wait.dll<br>Bin64Release\msvcp140_1.dll<br>Bin64Release\concrt140.dll<br>Game\Levels\hideout_mimir\terraintexture.pak<br>Game\Levels\survival\nemesis\nemesis\level.pak</td>
+<td class="removed">Bin64Release\ucrtbase.dll<br>Bin64Release\d3dcompiler_47.dll<br>Bin64Release\api-ms-win-crt-time-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-utility-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-string-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-stdio-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-runtime-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-multibyte-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-process-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-private-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-math-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-filesystem-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-heap-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-locale-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-environment-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-convert-l1-1-0.dll<br>Bin64Release\api-ms-win-core-util-l1-1-0.dll<br>Bin64Release\api-ms-win-core-sysinfo-l1-1-0.dll<br>Bin64Release\api-ms-win-crt-conio-l1-1-0.dll<br>Bin64Release\api-ms-win-core-timezone-l1-1-0.dll<br>Bin64Release\api-ms-win-core-synch-l1-1-0.dll<br>Bin64Release\api-ms-win-core-string-l1-1-0.dll<br>Bin64Release\api-ms-win-core-synch-l1-2-0.dll<br>Bin64Release\api-ms-win-core-processthreads-l1-1-1.dll<br>Bin64Release\api-ms-win-core-rtlsupport-l1-1-0.dll<br>Bin64Release\api-ms-win-core-profile-l1-1-0.dll<br>Bin64Release\api-ms-win-core-processthreads-l1-1-0.dll<br>Bin64Release\api-ms-win-core-processenvironment-l1-1-0.dll<br>Bin64Release\api-ms-win-core-memory-l1-1-0.dll<br>Bin64Release\api-ms-win-core-localization-l1-2-0.dll<br>Bin64Release\api-ms-win-core-namedpipe-l1-1-0.dll<br>Bin64Release\api-ms-win-core-interlocked-l1-1-0.dll<br>Bin64Release\api-ms-win-core-handle-l1-1-0.dll<br>Bin64Release\api-ms-win-core-libraryloader-l1-1-0.dll<br>Bin64Release\api-ms-win-core-heap-l1-1-0.dll<br>Bin64Release\api-ms-win-core-file-l1-2-0.dll<br>Bin64Release\api-ms-win-core-file-l2-1-0.dll<br>Bin64Release\api-ms-win-core-file-l1-1-0.dll<br>Bin64Release\api-ms-win-core-debug-l1-1-0.dll<br>Bin64Release\api-ms-win-core-console-l1-1-0.dll<br>Bin64Release\api-ms-win-core-errorhandling-l1-1-0.dll<br>Bin64Release\api-ms-win-core-datetime-l1-1-0.dll<br>Game\Levels\hideout_scandic_xmas_2025\terraintexture.pak<br>Game\Levels\hideout_scandic_xmas_2025\level.pak</td>
+</tr>
+<tr>
+<td>warfacedistrib581.torrent</td>
+<td class=""></td>
+<td class=""></td>
+</tr>
+</table>
+<script>
+
+            function filterTable() {
+                const filterText = document.getElementById('filterInput').value.toLowerCase();
+                const rows = document.querySelectorAll('#comparisonTable tr');
+                rows.forEach((row, index) => {
+                    if (index === 0) return; // Пропускаем заголовок таблицы
+                    const addedFiles = row.cells[1].textContent.toLowerCase();
+                    const removedFiles = row.cells[2].textContent.toLowerCase();
+                    if (addedFiles.includes(filterText) || removedFiles.includes(filterText)) {
+                        row.style.display = ''; // Показываем строку
+                    } else {
+                        row.style.display = 'none'; // Скрываем строку
+                    }
+                });
+            }
+        
+</script>
+</body>
+</html>
